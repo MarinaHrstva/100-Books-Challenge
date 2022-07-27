@@ -13,17 +13,22 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <Header />
-        {/* <HeroSection /> */}
-        {/* <Catalog />
-        <Login />
-        <Register />
-        <Achievements />
-        <MyBooks />
-        <Footer /> */}
+      <Header />
+      <div className='content'>
+        <div className="overlay">
 
-      </header>
+
+        <HeroSection />
+        {/* <Catalog /> */}
+        {/* <Login /> */}
+        {/* <Register /> */}
+        {/* <Achievements /> */}
+        {/* <MyBooks /> */}
+
+        </div>
+      </div>
+      <Footer />
+
     </div>
   );
 }

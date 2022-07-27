@@ -1,6 +1,6 @@
 header {
-    position: fixed;
     background-color: var(--color-dark-orange);
+    background-image: linear-gradient(to top, #ce5501, #e07f00, #eea714, #f8cf33, #fef857);
     opacity: 0.9;
     width: 100%;
     height: 5rem;
