@@ -3,7 +3,7 @@ export const Catalog=()=>{
     <section className="catalogue">
     <article className="book-card">
         <div>
-            <img src="#" alt="Book cover">
+            <img src="#" alt="Book cover"/>
             <p>Title: Book Title</p>
             <button>Details</button>
         </div>
