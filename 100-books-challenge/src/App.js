@@ -6,6 +6,7 @@ import { Login } from './components/login/Login';
 import { Register } from './components/register/Register';
 import { Achievements } from './components/achievements/Achievements';
 import { Footer } from './components/footer/Footer';
+import { MyBooks } from './components/my-books-section/MyBooks'
 
 import './App.css';
 
@@ -14,12 +15,14 @@ function App() {
     <div className="App">
       <header className="App-header">
         <Header />
-        <HeroSection />
-        <Catalog />
+        {/* <HeroSection /> */}
+        {/* <Catalog />
         <Login />
         <Register />
         <Achievements />
-        <Footer />
+        <MyBooks />
+        <Footer /> */}
+
       </header>
     </div>
   );
