@@ -1,0 +1,18 @@
+/* .catalog {
+    color: white;
+
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 1000;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.catalog .book-card {
+    padding: 1.5rem;
+    background-color: transparent;
+    border: 1px solid white;
+} */

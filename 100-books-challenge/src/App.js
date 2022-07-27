@@ -17,9 +17,9 @@ function App() {
       <div className='content'>
 
 
-        <HeroSection />
+        {/* <HeroSection /> */}
         {/* <Catalog /> */}
-        {/* <Login /> */}
+        <Login />
         {/* <Register /> */}
         {/* <Achievements /> */}
         {/* <MyBooks /> */}

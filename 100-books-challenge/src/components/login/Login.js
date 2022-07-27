@@ -1,16 +1,18 @@
 
+import './Login.css'
+
 export const Login = () => {
     return (
 
-        <section className="log-in">
+        <section className="login">
             <form>
-                <label for="email">
+                <label for="email">Email:
                     <input type="text" name="emai" placeholder="example@mail.com" />
                 </label>
-                <label for="password">
+                <label for="password">Password:
                     <input type="password" name="password" placeholder="*********" />
                 </label>
-                <button>Log in</button>
+                <button className="form-button">Login</button>
             </form>
         </section>
     )
