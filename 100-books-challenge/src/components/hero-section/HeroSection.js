@@ -5,8 +5,8 @@ export const HeroSection = () => {
     return (
      
         <section className="hero-section">
-            <h1>100 Books Challenge</h1>
-            <button>Start the Challenge</button>
+            <h1><span>100</span> <span>Books</span> <span>Challenge</span> </h1>
+            <button className='button-primary'>Start the Challenge</button>
         </section>
     )
 }

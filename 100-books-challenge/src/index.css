@@ -160,9 +160,13 @@ body {
 }
 
 button {
-  background-color: #fdd400;
+  background-color: #fef857;
+  background-image: linear-gradient(to bottom, #f39d00, #f7ad04, #fabd0e, #fdcd1a, #fedd27, #fedd27, #fedd27, #fedd27, #fdcd1a, #fabd0e, #f7ad04, #f39d00);
+
+  
   color: var(--color-dark-brown);
-  border: 1px solid var(--color-dark-orange);
+  /* border: 1px solid var(--color-dark-orange); */
+  border: none;
   border-radius: 6px;
   font-size: 18px;
   padding: 0.5rem;
@@ -171,12 +175,9 @@ button {
 }
 
 button:hover{
-  background-color:#fef857;
-  
-  box-shadow: 1px 1px 14px 5px rgba(154,77,0,0.54);
+  box-shadow: -1px 0px 15px 9px rgba(255,255,255,0.18);
   font-size: 20px;
   font-weight: bold;
-
   cursor: pointer;
 }
 

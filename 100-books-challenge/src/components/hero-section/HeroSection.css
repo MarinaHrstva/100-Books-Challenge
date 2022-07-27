@@ -1,8 +1,35 @@
 .hero-section {
     position: absolute;
     z-index: 1000;
-    top: 50%;
-    left: 30%;
+    top: 30%;
+    left: 20%;
 
     color: white;
+}
+
+.hero-section h1 {
+    /* width: 500px; */
+    font-family: 'Cormorant SC', serif;
+    font-size: 150px;
+}
+
+.hero-section h1 {
+    display: block;
+}
+
+.hero-section button {
+    transform: translateX(500px);
+}
+
+.button-primary {
+    background-image: linear-gradient(to bottom, #f39d00, #f7ad04, #fabd0e, #fdcd1a, #fedd27, #fedd27, #fedd27, #fedd27, #fdcd1a, #fabd0e, #f7ad04, #f39d00);
+    margin-top: 1rem;
+    margin-left: 3rem;
+    transition: all 0.5s ease-in-out;
+}
+
+.button-primary:hover{
+    font-weight: bold;
+    padding: 1rem;
+ 
 }
