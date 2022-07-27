@@ -90,6 +90,7 @@ video {
   font: inherit;
   vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article,
 aside,
@@ -104,17 +105,21 @@ nav,
 section {
   display: block;
 }
+
 body {
   line-height: 1;
 }
+
 ol,
 ul {
   list-style: none;
 }
+
 blockquote,
 q {
   quotes: none;
 }
+
 blockquote:before,
 blockquote:after,
 q:before,
@@ -122,6 +127,7 @@ q:after {
   content: "";
   content: none;
 }
+
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -135,7 +141,14 @@ table {
 
 body {
   font-family: Roboto, sans-serif;
-
 }
 
+:root {
+  --color-dark-brown: #4A2c2c;
+  --color-light-brown: #9A4D00;
+  --color-dark-orange: #ce5501;
+  --color-light-orange: #ff9205;
+  --color-dark-yellow: #fdd400;
+  --color-light-yellow: #fef857;
 
+}
