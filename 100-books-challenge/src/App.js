@@ -15,7 +15,6 @@ function App() {
     <div className="App">
       <Header />
       <div className='content'>
-        <div className="overlay">
 
 
         <HeroSection />
@@ -25,8 +24,9 @@ function App() {
         {/* <Achievements /> */}
         {/* <MyBooks /> */}
 
-        </div>
       </div>
+        <div className="overlay">
+        </div>
       <Footer />
 
     </div>

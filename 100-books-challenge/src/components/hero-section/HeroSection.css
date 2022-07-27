@@ -1,0 +1,8 @@
+.hero-section {
+    position: absolute;
+    z-index: 1000;
+    top: 50%;
+    left: 30%;
+
+    color: white;
+}
