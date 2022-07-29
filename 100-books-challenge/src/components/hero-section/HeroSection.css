@@ -34,13 +34,13 @@
 
 .button-primary:hover{
     font-weight: bold;
-    padding: 1rem;
+    padding: 0.5rem;
  
 }
 
 .hero-section p{
-    margin-top: 3rem;
-    margin-left: 12rem;
+    margin-top: 4rem;
+    margin-left: 6rem;
     font-size: 28px;
     letter-spacing: 3px;
 }
