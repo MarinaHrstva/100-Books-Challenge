@@ -17,19 +17,30 @@
     display: block;
 }
 
-.hero-section button {
-    transform: translateX(500px);
-}
+/* .hero-section button {
+    transform: translate(500px);
+} */
 
 .button-primary {
     background-image: linear-gradient(to bottom, #f39d00, #f7ad04, #fabd0e, #fdcd1a, #fedd27, #fedd27, #fedd27, #fedd27, #fdcd1a, #fabd0e, #f7ad04, #f39d00);
     margin-top: 1rem;
     margin-left: 3rem;
-    transition: all 0.5s ease-in-out;
+    transition: all 0.7s ease-in-out;
+    position: absolute;
+    top:70%;
+    left: 55%;
+    
 }
 
 .button-primary:hover{
     font-weight: bold;
     padding: 1rem;
  
+}
+
+.hero-section p{
+    margin-top: 3rem;
+    margin-left: 12rem;
+    font-size: 28px;
+    letter-spacing: 3px;
 }
