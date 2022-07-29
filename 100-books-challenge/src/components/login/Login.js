@@ -13,7 +13,7 @@ export const Login = () => {
                         <label for="password">Password:
                             <input type="password" name="password" placeholder="*********" />
                         </label>
-                        <button className="form-button">Login</button>
+                        <button className="login-button">Login</button>
                     </form>
                 </div>
                 <div className='form-overlay'></div>

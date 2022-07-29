@@ -1,13 +1,8 @@
 .register form {
-
     color: #fef857;
-
-    /* border: 1px solid orange; */
     border-radius: 8px;
     padding: 2rem;
-
     width: 400px;
-    /* height: 370px; */
     position: absolute;
     z-index: 1000;
     top: 50%;
@@ -28,7 +23,7 @@
     background-color: #4A2c2c;
     opacity: 0.5;
     width: 400px;
-    height:388px;
+    height: 450px;
     position: absolute;
     z-index: 999;
 
@@ -47,7 +42,10 @@
     padding-inline: 0.5rem;
 }
 
-.register-button{
-    margin-top: 0.75rem;
+.register form label {
+    padding: 0.5rem;
 }
 
+.register-button {
+    margin-top: 0.75rem;
+}

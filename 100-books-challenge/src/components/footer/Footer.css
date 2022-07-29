@@ -1,9 +1,13 @@
 footer{
     padding: 1rem;
-    height: 50px;
+    height: 75px;
     background-color: var(--color-dark-orange);
     background-image: linear-gradient(to bottom, #ce5501, #e07f00, #eea714, #f8cf33, #fef857);
     opacity: 0.8;
     color: var(--color-dark-brown);
     text-align: center;
-}
+  }
+
+  footer p{
+    margin-top: 1rem;
+  }

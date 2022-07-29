@@ -18,9 +18,9 @@ function App() {
 
 
         {/* <HeroSection /> */}
-        {/* <Catalog /> */}
+        <Catalog />
         {/* <Login /> */}
-        <Register />
+        {/* <Register /> */}
         {/* <Achievements /> */}
         {/* <MyBooks /> */}
 

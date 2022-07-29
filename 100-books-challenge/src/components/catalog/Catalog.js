@@ -4,82 +4,57 @@ import './Catalog.css'
 export const Catalog = () => {
     return (
         <section className="catalog">
-            <article className="book-card">
-                <div>
-                    <img src="#" alt="Book cover" />
-                    <p>Title: Book Title</p>
-                    <button>Details</button>
-                </div>
-                <div className="book-details">
-                    <p>Author: Books Author</p>
-                    <p>Year: 2022</p>
-                    <p>Category: </p>
-                    <p>Words: 20000</p>
-                </div>
-                <div className="card-actions">
-                    {/* <div className="commens-container"></div>
-                    <textarea name="commens" cols="20" rows="5"></textarea> */}
-                    <span><i class="fas fa-thumbs-up"></i></span><span>Likes:1000</span>
+            <div className="article-container">
+                <article className="book-card">
+                    <div className="card-imgage-wraper">
+                        <img src="http://smartmobilestudio.com/wp-content/uploads/2012/06/leather-book-preview.png" alt="Book cover" />
 
-                </div>
-            </article>
-            <article className="book-card">
-                <div>
-                    <img src="#" alt="Book cover" />
+                    </div>
                     <p>Title: Book Title</p>
-                    <button>Details</button>
-                </div>
-                <div className="book-details">
-                    <p>Author: Books Author</p>
-                    <p>Year: 2022</p>
-                    <p>Category: </p>
-                    <p>Words: 20000</p>
-                </div>
-                <div className="card-actions">
-                    <div className="commens-container"></div>
-                    <textarea name="commens" cols="20" rows="5"></textarea>
-                    <span><i class="fas fa-thumbs-up"></i></span><span>Likes:1000</span>
+                </article>
+                <div className='article-overlay'></div>
+            </div>
+            <div className="article-container">
+                <article className="book-card">
+                    <div className="card-imgage-wraper">
+                        <img src="http://smartmobilestudio.com/wp-content/uploads/2012/06/leather-book-preview.png" alt="Book cover" />
 
-                </div>
-            </article>
-            <article className="book-card">
-                <div>
-                    <img src="#" alt="Book cover" />
+                    </div>
                     <p>Title: Book Title</p>
-                    <button>Details</button>
-                </div>
-                <div className="book-details">
-                    <p>Author: Books Author</p>
-                    <p>Year: 2022</p>
-                    <p>Category: </p>
-                    <p>Words: 20000</p>
-                </div>
-                <div className="card-actions">
-                    <div className="commens-container"></div>
-                    <textarea name="commens" cols="20" rows="5"></textarea>
-                    <span><i class="fas fa-thumbs-up"></i></span><span>Likes:1000</span>
+                </article>
+                <div className='article-overlay'></div>
+            </div><div className="article-container">
+                <article className="book-card">
+                    <div className="card-imgage-wraper">
+                        <img src="http://smartmobilestudio.com/wp-content/uploads/2012/06/leather-book-preview.png" alt="Book cover" />
 
-                </div>
-            </article>
-            <article className="book-card">
-                <div>
-                    <img src="#" alt="Book cover" />
+                    </div>
                     <p>Title: Book Title</p>
-                    <button>Details</button>
-                </div>
-                <div className="book-details">
-                    <p>Author: Books Author</p>
-                    <p>Year: 2022</p>
-                    <p>Category: </p>
-                    <p>Words: 20000</p>
-                </div>
-                <div className="card-actions">
-                    <div className="commens-container"></div>
-                    <textarea name="commens" cols="20" rows="5"></textarea>
-                    <span><i class="fas fa-thumbs-up"></i></span><span>Likes:1000</span>
+                </article>
+                <div className='article-overlay'></div>
+            </div>
+            <div className="article-container">
+                <article className="book-card">
+                    <div className="card-imgage-wraper">
+                        <img src="http://smartmobilestudio.com/wp-content/uploads/2012/06/leather-book-preview.png" alt="Book cover" />
 
-                </div>
-            </article>
+                    </div>
+                    <p>Title: Book Title</p>
+                </article>
+                <div className='article-overlay'></div>
+            </div>
+            <div className="article-container">
+                <article className="book-card">
+                    <div className="card-imgage-wraper">
+                        <img src="http://smartmobilestudio.com/wp-content/uploads/2012/06/leather-book-preview.png" alt="Book cover" />
+
+                    </div>
+                    <p>Title: Book Title</p>
+                </article>
+                <div className='article-overlay'></div>
+            </div>
+            <button className='button-previous'>PREVIOUS</button>
+            <button className='button-next'>NEXT</button>
         </section>
     )
 }
