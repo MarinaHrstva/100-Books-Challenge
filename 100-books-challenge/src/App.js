@@ -14,19 +14,14 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <div className='content'>
-
-
-        <HeroSection />
-        {/* <Catalog /> */}
+ 
+        {/* <HeroSection /> */}
+        <Catalog />
         {/* <Login /> */}
         {/* <Register /> */}
         {/* <Achievements /> */}
         {/* <MyBooks /> */}
-
-      </div>
-        <div className="overlay">
-        </div>
+        
       <Footer />
 
     </div>
