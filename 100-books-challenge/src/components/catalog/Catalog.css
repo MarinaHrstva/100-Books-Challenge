@@ -1,6 +1,6 @@
 .catalog {
-    background-color: black;
-    opacity: 0.7;
+  background-color: #4A2c2c;
+
     width: 100%;
    min-height: 90vh;
     color: #fef857;
@@ -22,9 +22,9 @@
 }
 
 .book-card {
-    background-color: transparent;
-    border: 1px solid #FEFD4E;
-    box-shadow: 0px 2px 20px 5px #FEFD4E;
+    background-color: #ce5501;
+     /* border: 1px solid #FEFD4E; */
+    box-shadow: 0px 2px 20px 5px #ff9205;
     border-radius: 8px;
 
     padding: 1rem;
