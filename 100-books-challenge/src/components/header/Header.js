@@ -11,6 +11,7 @@ export const Header = () => {
             <p>100 Books Challenge</p>
             </div>
             <nav>
+           
                 <Guest />
                 {/* <User /> */}
             </nav>

@@ -4,6 +4,7 @@ export const User = () => {
     return (
         <div className="user">
             <ul >
+                <li><button>Catalog</button></li>
                 <li><a href="">Catalogue</a></li>
                 <li><a href="">Achievements</a></li>
                 <li><a href="">My Books</a></li>
