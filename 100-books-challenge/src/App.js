@@ -15,14 +15,14 @@ function App() {
     <div className="App">
       <Header />
  
-        <HeroSection />
-        {/* <Catalog /> */}
+        {/* <HeroSection /> */}
+        <Catalog />
         {/* <Login /> */}
         {/* <Register /> */}
         {/* <Achievements /> */}
         {/* <MyBooks /> */}
         
-      {/* <Footer /> */}
+      <Footer />
 
     </div>
   );
