@@ -1,23 +1,31 @@
 [
     {
         "id": 1,
-        "title": "Diebuster \"Top wo Narae 2\"",
-        "author": "Dorisa Bruno",
-        "year": 1995,
+        "title": "Blue Is the Warmest Color (La vie d'Adèle)",
+        "author": "Rufe Britee",
+        "year": 2000,
         "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum reiciendis explicabo aliquam temporibus possimus provident tempora quis inventore. Quae, sit.",
+        "words": 1,
         "likes": 1,
         "comments": [
+            {},
+            {},
+            {},
+            {},
             {}
         ]
     },
     {
         "id": 2,
-        "title": "Tie Xi Qu: West of the Tracks (Tiexi qu)",
-        "author": "Deeann Hurlin",
-        "year": 1992,
+        "title": "Life is a Bed of Roses (Vie est un roman, La)",
+        "author": "Heda Adrian",
+        "year": 2008,
         "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum reiciendis explicabo aliquam temporibus possimus provident tempora quis inventore. Quae, sit.",
+        "words": 2,
         "likes": 2,
         "comments": [
+            {},
+            {},
             {},
             {},
             {}
@@ -25,45 +33,56 @@
     },
     {
         "id": 3,
-        "title": "The Man Who Shook the Hand of Vicente Fernandez",
-        "author": "Phoebe McAleese",
-        "year": 2009,
+        "title": "Our Daily Bread (Unser täglich Brot)",
+        "author": "Fayette Conradsen",
+        "year": 2002,
         "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum reiciendis explicabo aliquam temporibus possimus provident tempora quis inventore. Quae, sit.",
+        "words": 3,
         "likes": 3,
         "comments": [
+            {},
+            {},
             {}
         ]
     },
     {
         "id": 4,
-        "title": "Return of the King, The",
-        "author": "Humfrid O'Finan",
-        "year": 1997,
+        "title": "Jesus Is a Palestinian (Jezus is een Palestijn)",
+        "author": "Monti Jurczik",
+        "year": 2008,
         "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum reiciendis explicabo aliquam temporibus possimus provident tempora quis inventore. Quae, sit.",
+        "words": 4,
         "likes": 4,
         "comments": [
+            {},
+            {},
             {},
             {}
         ]
     },
     {
         "id": 5,
-        "title": "Fantasia",
-        "author": "Thomasa Finlay",
-        "year": 2005,
+        "title": "Silver Streak",
+        "author": "Tillie Benit",
+        "year": 2010,
         "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum reiciendis explicabo aliquam temporibus possimus provident tempora quis inventore. Quae, sit.",
+        "words": 5,
         "likes": 5,
         "comments": [
+            {},
+            {},
+            {},
             {},
             {}
         ]
     },
     {
         "id": 6,
-        "title": "Scarecrow",
-        "author": "Hughie Dresche",
-        "year": 2008,
+        "title": "Picnic on the Grass (Le déjeuner sur l'herbe)",
+        "author": "Nealson Kaubisch",
+        "year": 1986,
         "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum reiciendis explicabo aliquam temporibus possimus provident tempora quis inventore. Quae, sit.",
+        "words": 6,
         "likes": 6,
         "comments": [
             {},
@@ -72,10 +91,11 @@
     },
     {
         "id": 7,
-        "title": "Pride and the Passion, The",
-        "author": "Avie Greed",
-        "year": 1997,
+        "title": "Original Kings of Comedy, The",
+        "author": "Neille Wavell",
+        "year": 1986,
         "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum reiciendis explicabo aliquam temporibus possimus provident tempora quis inventore. Quae, sit.",
+        "words": 7,
         "likes": 7,
         "comments": [
             {},
@@ -84,21 +104,27 @@
     },
     {
         "id": 8,
-        "title": "The Boys",
-        "author": "Ashia Berkelay",
-        "year": 2010,
+        "title": "Journey to the Center of the Earth",
+        "author": "Menard Blunkett",
+        "year": 2002,
         "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum reiciendis explicabo aliquam temporibus possimus provident tempora quis inventore. Quae, sit.",
+        "words": 8,
         "likes": 8,
-        "comments": []
+        "comments": [
+            {},
+            {}
+        ]
     },
     {
         "id": 9,
-        "title": "Confessional, The (Confessionnal, Le)",
-        "author": "Jeffry Goutcher",
-        "year": 1996,
+        "title": "Alice's Adventures in Wonderland",
+        "author": "Siffre Noad",
+        "year": 1987,
         "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum reiciendis explicabo aliquam temporibus possimus provident tempora quis inventore. Quae, sit.",
+        "words": 9,
         "likes": 9,
         "comments": [
+            {},
             {},
             {},
             {}
@@ -106,38 +132,37 @@
     },
     {
         "id": 10,
-        "title": "Venus and Serena",
-        "author": "Culver Swanson",
-        "year": 1993,
+        "title": "Sune på bilsemester",
+        "author": "Catharina Burnet",
+        "year": 1998,
         "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum reiciendis explicabo aliquam temporibus possimus provident tempora quis inventore. Quae, sit.",
+        "words": 10,
         "likes": 10,
-        "comments": []
+        "comments": [
+            {},
+            {}
+        ]
     },
     {
         "id": 11,
-        "title": "Object of My Affection, The",
-        "author": "Ahmed Blackden",
+        "title": "Side Effects",
+        "author": "Kevin Klejna",
         "year": 2010,
         "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum reiciendis explicabo aliquam temporibus possimus provident tempora quis inventore. Quae, sit.",
+        "words": 11,
         "likes": 11,
-        "comments": []
+        "comments": [
+            {}
+        ]
     },
     {
         "id": 12,
-        "title": "Like Someone In Love",
-        "author": "Kesley Cardinale",
-        "year": 2001,
+        "title": "Daughter from Danang",
+        "author": "Livvie Jarrel",
+        "year": 2008,
         "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum reiciendis explicabo aliquam temporibus possimus provident tempora quis inventore. Quae, sit.",
+        "words": 12,
         "likes": 12,
-        "comments": []
-    },
-    {
-        "id": 13,
-        "title": "K-9",
-        "author": "Bondie Walklott",
-        "year": 1993,
-        "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum reiciendis explicabo aliquam temporibus possimus provident tempora quis inventore. Quae, sit.",
-        "likes": 13,
         "comments": [
             {},
             {},
@@ -145,20 +170,39 @@
         ]
     },
     {
-        "id": 14,
-        "title": "Not Here to Be Loved (Je ne suis pas là pour être aimé)",
-        "author": "Palm McTrusty",
-        "year": 1991,
+        "id": 13,
+        "title": "Fuga de cerebros",
+        "author": "Reube Cordero",
+        "year": 1996,
         "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum reiciendis explicabo aliquam temporibus possimus provident tempora quis inventore. Quae, sit.",
+        "words": 13,
+        "likes": 13,
+        "comments": [
+            {},
+            {},
+            {},
+            {}
+        ]
+    },
+    {
+        "id": 14,
+        "title": "Levitated Mass",
+        "author": "Anabel Hirjak",
+        "year": 2001,
+        "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum reiciendis explicabo aliquam temporibus possimus provident tempora quis inventore. Quae, sit.",
+        "words": 14,
         "likes": 14,
-        "comments": []
+        "comments": [
+            {}
+        ]
     },
     {
         "id": 15,
-        "title": "Tomorrow, the World!",
-        "author": "Lyle Nast",
-        "year": 1995,
+        "title": "Black Pirate, The",
+        "author": "Audrye Shawdforth",
+        "year": 2002,
         "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum reiciendis explicabo aliquam temporibus possimus provident tempora quis inventore. Quae, sit.",
+        "words": 15,
         "likes": 15,
         "comments": [
             {},
@@ -167,22 +211,23 @@
     },
     {
         "id": 16,
-        "title": "Mr. Destiny",
-        "author": "Mercedes Rabl",
-        "year": 2007,
+        "title": "Jumper",
+        "author": "Geoffrey Dyne",
+        "year": 2008,
         "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum reiciendis explicabo aliquam temporibus possimus provident tempora quis inventore. Quae, sit.",
+        "words": 16,
         "likes": 16,
         "comments": [
-            {},
             {}
         ]
     },
     {
         "id": 17,
-        "title": "Scooby-Doo! Camp Scare",
-        "author": "Row Ivanisov",
-        "year": 2009,
+        "title": "Journey, The",
+        "author": "Dwight Kleinzweig",
+        "year": 2002,
         "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum reiciendis explicabo aliquam temporibus possimus provident tempora quis inventore. Quae, sit.",
+        "words": 17,
         "likes": 17,
         "comments": [
             {},
@@ -192,10 +237,11 @@
     },
     {
         "id": 18,
-        "title": "The Butterfly Effect 3: Revelations",
-        "author": "Kippar Cortes",
-        "year": 2000,
+        "title": "Suspect Zero",
+        "author": "Brennen Sherwill",
+        "year": 1996,
         "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum reiciendis explicabo aliquam temporibus possimus provident tempora quis inventore. Quae, sit.",
+        "words": 18,
         "likes": 18,
         "comments": [
             {},
@@ -205,25 +251,27 @@
     },
     {
         "id": 19,
-        "title": "Den sommeren jeg fylte 15",
-        "author": "Gilly Masey",
-        "year": 2004,
+        "title": "David and Lisa",
+        "author": "Kirsten Sinney",
+        "year": 2007,
         "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum reiciendis explicabo aliquam temporibus possimus provident tempora quis inventore. Quae, sit.",
+        "words": 19,
         "likes": 19,
         "comments": [
-            {},
             {},
             {}
         ]
     },
     {
         "id": 20,
-        "title": "Adventures of Huckleberry Finn, The",
-        "author": "Sib Brigden",
-        "year": 2012,
+        "title": "Eden",
+        "author": "Ferrell Andrat",
+        "year": 2006,
         "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum reiciendis explicabo aliquam temporibus possimus provident tempora quis inventore. Quae, sit.",
+        "words": 20,
         "likes": 20,
         "comments": [
+            {},
             {},
             {},
             {}
@@ -231,61 +279,87 @@
     },
     {
         "id": 21,
-        "title": "Tiger of Eschnapur, The (Tiger von Eschnapur, Der)",
-        "author": "Maynard Saby",
-        "year": 2004,
+        "title": "Bitter Moon",
+        "author": "Xerxes Pietzker",
+        "year": 2003,
         "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum reiciendis explicabo aliquam temporibus possimus provident tempora quis inventore. Quae, sit.",
+        "words": 21,
         "likes": 21,
         "comments": [
+            {},
+            {},
+            {},
+            {},
             {}
         ]
     },
     {
         "id": 22,
-        "title": "Lucky Texan, The",
-        "author": "Bondie Woolrich",
-        "year": 2003,
+        "title": "Bird",
+        "author": "Frasier McGilvra",
+        "year": 2000,
         "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum reiciendis explicabo aliquam temporibus possimus provident tempora quis inventore. Quae, sit.",
+        "words": 22,
         "likes": 22,
-        "comments": []
+        "comments": [
+            {},
+            {}
+        ]
     },
     {
         "id": 23,
-        "title": "Smashing Time",
-        "author": "Fallon McPike",
-        "year": 1992,
+        "title": "Ninotchka",
+        "author": "Paolina Soldi",
+        "year": 2007,
         "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum reiciendis explicabo aliquam temporibus possimus provident tempora quis inventore. Quae, sit.",
+        "words": 23,
         "likes": 23,
-        "comments": []
+        "comments": [
+            {},
+            {}
+        ]
     },
     {
         "id": 24,
-        "title": "West (Occident)",
-        "author": "Belle Rowat",
-        "year": 2007,
+        "title": "Dark Journey",
+        "author": "Venita Wigley",
+        "year": 1995,
         "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum reiciendis explicabo aliquam temporibus possimus provident tempora quis inventore. Quae, sit.",
+        "words": 24,
         "likes": 24,
         "comments": [
+            {},
+            {},
+            {},
             {}
         ]
     },
     {
         "id": 25,
-        "title": "Made in Hong Kong (Xiang Gang zhi zao)",
-        "author": "Ricard Spiniello",
-        "year": 2001,
+        "title": "Morgan Pålsson - världsreporter",
+        "author": "Nerty Pendred",
+        "year": 1999,
         "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum reiciendis explicabo aliquam temporibus possimus provident tempora quis inventore. Quae, sit.",
+        "words": 25,
         "likes": 25,
-        "comments": []
+        "comments": [
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
     },
     {
         "id": 26,
-        "title": "Sabah",
-        "author": "Lilian Wilmott",
-        "year": 1995,
+        "title": "Dr. Ehrlich's Magic Bullet",
+        "author": "Alford Rainy",
+        "year": 2006,
         "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum reiciendis explicabo aliquam temporibus possimus provident tempora quis inventore. Quae, sit.",
+        "words": 26,
         "likes": 26,
         "comments": [
+            {},
             {},
             {},
             {}
@@ -293,12 +367,15 @@
     },
     {
         "id": 27,
-        "title": "Dungeonmaster, The",
-        "author": "Johanna Kemitt",
-        "year": 2005,
+        "title": "Corner Gas: The Movie",
+        "author": "Amara Espadero",
+        "year": 2009,
         "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum reiciendis explicabo aliquam temporibus possimus provident tempora quis inventore. Quae, sit.",
+        "words": 27,
         "likes": 27,
         "comments": [
+            {},
+            {},
             {},
             {},
             {}
@@ -306,64 +383,84 @@
     },
     {
         "id": 28,
-        "title": "Men in War",
-        "author": "Kaitlin Mountney",
-        "year": 2001,
+        "title": "City, The (Ciudad, La)",
+        "author": "Terrie Noteyoung",
+        "year": 2003,
         "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum reiciendis explicabo aliquam temporibus possimus provident tempora quis inventore. Quae, sit.",
+        "words": 28,
         "likes": 28,
-        "comments": []
+        "comments": [
+            {},
+            {},
+            {}
+        ]
     },
     {
         "id": 29,
-        "title": "Time to Kill, A",
-        "author": "Livvie Orta",
-        "year": 2002,
+        "title": "Sparrows Dance",
+        "author": "Gale O'Lagene",
+        "year": 2010,
         "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum reiciendis explicabo aliquam temporibus possimus provident tempora quis inventore. Quae, sit.",
+        "words": 29,
         "likes": 29,
-        "comments": []
+        "comments": [
+            {},
+            {},
+            {}
+        ]
     },
     {
         "id": 30,
-        "title": "Lord of the Rings: The Return of the King, The",
-        "author": "Gonzales Croall",
-        "year": 2006,
+        "title": "Kippur",
+        "author": "Aprilette Furminger",
+        "year": 1995,
         "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum reiciendis explicabo aliquam temporibus possimus provident tempora quis inventore. Quae, sit.",
+        "words": 30,
         "likes": 30,
         "comments": [
-            {},
             {},
             {}
         ]
     },
     {
         "id": 31,
-        "title": "True Grit",
-        "author": "Cindi Barthel",
-        "year": 2010,
+        "title": "Lover's Knot",
+        "author": "Tully Syversen",
+        "year": 2001,
         "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum reiciendis explicabo aliquam temporibus possimus provident tempora quis inventore. Quae, sit.",
+        "words": 31,
         "likes": 31,
         "comments": [
+            {},
+            {},
             {},
             {}
         ]
     },
     {
         "id": 32,
-        "title": "Fourth Angel, The",
-        "author": "Shurwood Claesens",
-        "year": 1995,
+        "title": "Hunter, The",
+        "author": "Alvira Dawdry",
+        "year": 2003,
         "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum reiciendis explicabo aliquam temporibus possimus provident tempora quis inventore. Quae, sit.",
+        "words": 32,
         "likes": 32,
-        "comments": []
+        "comments": [
+            {},
+            {},
+            {}
+        ]
     },
     {
         "id": 33,
-        "title": "Doll's House, A",
-        "author": "Essie Paxton",
-        "year": 1999,
+        "title": "Big Blonde, The (Iso vaalee)",
+        "author": "Happy Bowfin",
+        "year": 2006,
         "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum reiciendis explicabo aliquam temporibus possimus provident tempora quis inventore. Quae, sit.",
+        "words": 33,
         "likes": 33,
         "comments": [
+            {},
             {},
             {},
             {}
@@ -371,88 +468,105 @@
     },
     {
         "id": 34,
-        "title": "Son of Rambow",
-        "author": "Barr Caple",
-        "year": 1997,
+        "title": "Angel's Leap",
+        "author": "Dorette Alcock",
+        "year": 1986,
         "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum reiciendis explicabo aliquam temporibus possimus provident tempora quis inventore. Quae, sit.",
+        "words": 34,
         "likes": 34,
         "comments": [
-            {},
             {},
             {}
         ]
     },
     {
         "id": 35,
-        "title": "Nobody Knows Anything!",
-        "author": "Philipa Taaffe",
-        "year": 1991,
+        "title": "Queen Margot (Reine Margot, La)",
+        "author": "Maurine Mertgen",
+        "year": 2005,
         "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum reiciendis explicabo aliquam temporibus possimus provident tempora quis inventore. Quae, sit.",
+        "words": 35,
         "likes": 35,
         "comments": [
-            {},
             {}
         ]
     },
     {
         "id": 36,
-        "title": "Quand je serai petit",
-        "author": "Angel Dureden",
-        "year": 2003,
+        "title": "Seoul Searching",
+        "author": "Cristal Mossop",
+        "year": 1997,
         "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum reiciendis explicabo aliquam temporibus possimus provident tempora quis inventore. Quae, sit.",
+        "words": 36,
         "likes": 36,
-        "comments": []
+        "comments": [
+            {}
+        ]
     },
     {
         "id": 37,
-        "title": "Chill Factor",
-        "author": "Yuri Devil",
-        "year": 2005,
+        "title": "White Lightning",
+        "author": "Karen Kmicicki",
+        "year": 1998,
         "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum reiciendis explicabo aliquam temporibus possimus provident tempora quis inventore. Quae, sit.",
+        "words": 37,
         "likes": 37,
         "comments": [
+            {},
+            {},
             {}
         ]
     },
     {
         "id": 38,
-        "title": "David Cross: The Pride Is Back",
-        "author": "Garnette Dowty",
-        "year": 1994,
+        "title": "Dog Day Afternoon",
+        "author": "Emmery Zecchinelli",
+        "year": 1987,
         "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum reiciendis explicabo aliquam temporibus possimus provident tempora quis inventore. Quae, sit.",
+        "words": 38,
         "likes": 38,
         "comments": [
+            {},
+            {},
+            {},
+            {},
             {}
         ]
     },
     {
         "id": 39,
-        "title": "Niagara, Niagara",
-        "author": "Adriaens Matresse",
-        "year": 2010,
+        "title": "Make Like a Thief (Juokse kuin varas)",
+        "author": "Cletis Ledbury",
+        "year": 2000,
         "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum reiciendis explicabo aliquam temporibus possimus provident tempora quis inventore. Quae, sit.",
+        "words": 39,
         "likes": 39,
-        "comments": []
-    },
-    {
-        "id": 40,
-        "title": "American Friend, The (Amerikanische Freund, Der)",
-        "author": "Jerry Dorman",
-        "year": 2005,
-        "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum reiciendis explicabo aliquam temporibus possimus provident tempora quis inventore. Quae, sit.",
-        "likes": 40,
         "comments": [
+            {},
             {},
             {},
             {}
         ]
     },
     {
-        "id": 41,
-        "title": "It's in the Water",
-        "author": "Antonio Inge",
-        "year": 1990,
+        "id": 40,
+        "title": "Nick Offerman: American Ham",
+        "author": "Patrice Heinonen",
+        "year": 1994,
         "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum reiciendis explicabo aliquam temporibus possimus provident tempora quis inventore. Quae, sit.",
+        "words": 40,
+        "likes": 40,
+        "comments": [
+            {}
+        ]
+    },
+    {
+        "id": 41,
+        "title": "Most Dangerous Man in America: Daniel Ellsberg and the Pentagon Papers, The",
+        "author": "Zeke Whisby",
+        "year": 1995,
+        "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum reiciendis explicabo aliquam temporibus possimus provident tempora quis inventore. Quae, sit.",
+        "words": 41,
         "likes": 41,
         "comments": [
             {}
@@ -460,44 +574,42 @@
     },
     {
         "id": 42,
-        "title": "Lila Says (Lila dit ça)",
-        "author": "Gustie Spadollini",
-        "year": 1990,
+        "title": "Barchester Chronicles, The",
+        "author": "Kleon Guerre",
+        "year": 1991,
         "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum reiciendis explicabo aliquam temporibus possimus provident tempora quis inventore. Quae, sit.",
+        "words": 42,
         "likes": 42,
         "comments": [
+            {},
+            {},
             {},
             {}
         ]
     },
     {
         "id": 43,
-        "title": "Printed Rainbow",
-        "author": "Valaria Pallasch",
-        "year": 1986,
+        "title": "Purple Violets",
+        "author": "Hendrick Ruck",
+        "year": 2012,
         "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum reiciendis explicabo aliquam temporibus possimus provident tempora quis inventore. Quae, sit.",
+        "words": 43,
         "likes": 43,
         "comments": [
+            {},
+            {},
             {},
             {}
         ]
     },
     {
         "id": 44,
-        "title": "The Last Five Years",
-        "author": "Madalyn Cronin",
-        "year": 2002,
+        "title": "Hollywood or Bust",
+        "author": "Valentia Swinyard",
+        "year": 1994,
         "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum reiciendis explicabo aliquam temporibus possimus provident tempora quis inventore. Quae, sit.",
+        "words": 44,
         "likes": 44,
-        "comments": []
-    },
-    {
-        "id": 45,
-        "title": "Snow Flower and the Secret Fan",
-        "author": "Hermy Kidwell",
-        "year": 1993,
-        "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum reiciendis explicabo aliquam temporibus possimus provident tempora quis inventore. Quae, sit.",
-        "likes": 45,
         "comments": [
             {},
             {},
@@ -505,37 +617,56 @@
         ]
     },
     {
-        "id": 46,
-        "title": "Rachel, Rachel",
-        "author": "Dud Glavias",
-        "year": 1992,
+        "id": 45,
+        "title": "Hot Lead and Cold Feet",
+        "author": "Bibi McGeraghty",
+        "year": 1999,
         "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum reiciendis explicabo aliquam temporibus possimus provident tempora quis inventore. Quae, sit.",
+        "words": 45,
+        "likes": 45,
+        "comments": [
+            {}
+        ]
+    },
+    {
+        "id": 46,
+        "title": "Round-Up, The (Szegénylegények)",
+        "author": "Kali Batte",
+        "year": 1986,
+        "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum reiciendis explicabo aliquam temporibus possimus provident tempora quis inventore. Quae, sit.",
+        "words": 46,
         "likes": 46,
         "comments": [
-            {},
             {},
             {}
         ]
     },
     {
         "id": 47,
-        "title": "Chemical Brothers: Don't Think, The",
-        "author": "Rube Cherm",
-        "year": 1998,
+        "title": "Mystery Road",
+        "author": "Crawford Delgado",
+        "year": 2010,
         "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum reiciendis explicabo aliquam temporibus possimus provident tempora quis inventore. Quae, sit.",
+        "words": 47,
         "likes": 47,
         "comments": [
+            {},
+            {},
+            {},
             {}
         ]
     },
     {
         "id": 48,
-        "title": "Art of Dying, The (El Arte de Morir)",
-        "author": "Hercule Isakovitch",
-        "year": 1993,
+        "title": "Man from Down Under, The",
+        "author": "Antony Masterson",
+        "year": 2004,
         "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum reiciendis explicabo aliquam temporibus possimus provident tempora quis inventore. Quae, sit.",
+        "words": 48,
         "likes": 48,
         "comments": [
+            {},
+            {},
             {},
             {},
             {}
@@ -543,19 +674,27 @@
     },
     {
         "id": 49,
-        "title": "Habana Blues",
-        "author": "Luciana Courtier",
-        "year": 2006,
+        "title": "Brothers Grimm, The",
+        "author": "Abigail Stode",
+        "year": 1999,
         "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum reiciendis explicabo aliquam temporibus possimus provident tempora quis inventore. Quae, sit.",
+        "words": 49,
         "likes": 49,
-        "comments": []
+        "comments": [
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
     },
     {
         "id": 50,
-        "title": "The Living Magoroku",
-        "author": "Carlyn Belvard",
-        "year": 2006,
+        "title": "Bob le Flambeur",
+        "author": "Krissie Georgi",
+        "year": 2011,
         "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum reiciendis explicabo aliquam temporibus possimus provident tempora quis inventore. Quae, sit.",
+        "words": 50,
         "likes": 50,
         "comments": [
             {},
@@ -564,37 +703,38 @@
     },
     {
         "id": 51,
-        "title": "Definitely, Maybe",
-        "author": "Isidoro Edgeley",
-        "year": 1998,
+        "title": "Sisterhood of the Traveling Pants, The",
+        "author": "Blanch Harken",
+        "year": 2011,
         "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum reiciendis explicabo aliquam temporibus possimus provident tempora quis inventore. Quae, sit.",
+        "words": 51,
         "likes": 51,
         "comments": [
-            {},
-            {},
             {}
         ]
     },
     {
         "id": 52,
-        "title": "Wallace and Gromit in 'A Matter of Loaf and Death'",
-        "author": "Happy Nelm",
-        "year": 1994,
+        "title": "Anamorph",
+        "author": "Em Blaisdell",
+        "year": 2003,
         "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum reiciendis explicabo aliquam temporibus possimus provident tempora quis inventore. Quae, sit.",
+        "words": 52,
         "likes": 52,
         "comments": [
-            {},
             {}
         ]
     },
     {
         "id": 53,
-        "title": "Swan Princess: Escape from Castle Mountain, The",
-        "author": "Adan Padrick",
-        "year": 1992,
+        "title": "Comrade X",
+        "author": "Woodman Zoppo",
+        "year": 1983,
         "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum reiciendis explicabo aliquam temporibus possimus provident tempora quis inventore. Quae, sit.",
+        "words": 53,
         "likes": 53,
         "comments": [
+            {},
             {},
             {},
             {}
@@ -602,24 +742,26 @@
     },
     {
         "id": 54,
-        "title": "Microcosmos (Microcosmos: Le peuple de l'herbe)",
-        "author": "Otha Kehoe",
-        "year": 2006,
+        "title": "Austin High",
+        "author": "Jourdan Wainman",
+        "year": 1993,
         "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum reiciendis explicabo aliquam temporibus possimus provident tempora quis inventore. Quae, sit.",
+        "words": 54,
         "likes": 54,
         "comments": [
-            {},
             {}
         ]
     },
     {
         "id": 55,
-        "title": "Xiu Xiu: The Sent-Down Girl (Tian yu)",
-        "author": "Chris Janecki",
-        "year": 2009,
+        "title": "Game of Death, The (Le Jeu de la Mort)",
+        "author": "Angele MacAlester",
+        "year": 1992,
         "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum reiciendis explicabo aliquam temporibus possimus provident tempora quis inventore. Quae, sit.",
+        "words": 55,
         "likes": 55,
         "comments": [
+            {},
             {},
             {},
             {}
@@ -627,30 +769,43 @@
     },
     {
         "id": 56,
-        "title": "That Day (Ce jour-là)",
-        "author": "Simone Grigori",
-        "year": 2011,
+        "title": "Dead Man Running",
+        "author": "Ingrim Fawdry",
+        "year": 2007,
         "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum reiciendis explicabo aliquam temporibus possimus provident tempora quis inventore. Quae, sit.",
+        "words": 56,
         "likes": 56,
-        "comments": []
+        "comments": [
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
     },
     {
         "id": 57,
-        "title": "Wives and Lovers",
-        "author": "Alma McKennan",
-        "year": 1990,
+        "title": "Girl from Monaco, The (fille de Monaco, La)",
+        "author": "Claudius Maulin",
+        "year": 2009,
         "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum reiciendis explicabo aliquam temporibus possimus provident tempora quis inventore. Quae, sit.",
+        "words": 57,
         "likes": 57,
         "comments": [
+            {},
+            {},
+            {},
+            {},
             {}
         ]
     },
     {
         "id": 58,
-        "title": "Family Tree (L'arbre et la forêt)",
-        "author": "Lorelei Pighills",
-        "year": 1992,
+        "title": "Attack on the Iron Coast",
+        "author": "Arnaldo Pedden",
+        "year": 2002,
         "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum reiciendis explicabo aliquam temporibus possimus provident tempora quis inventore. Quae, sit.",
+        "words": 58,
         "likes": 58,
         "comments": [
             {},
@@ -660,96 +815,124 @@
     },
     {
         "id": 59,
-        "title": "St. Vincent",
-        "author": "Ricky Joel",
-        "year": 2009,
+        "title": "Evil Roy Slade",
+        "author": "Maxie Corballis",
+        "year": 1992,
         "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum reiciendis explicabo aliquam temporibus possimus provident tempora quis inventore. Quae, sit.",
+        "words": 59,
         "likes": 59,
         "comments": [
-            {},
-            {},
             {}
         ]
     },
     {
         "id": 60,
-        "title": "Alien Nation: The Enemy Within",
-        "author": "Godart Halleybone",
-        "year": 2005,
+        "title": "McQ",
+        "author": "Jephthah MacAvddy",
+        "year": 2002,
         "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum reiciendis explicabo aliquam temporibus possimus provident tempora quis inventore. Quae, sit.",
+        "words": 60,
         "likes": 60,
         "comments": [
+            {},
+            {},
+            {},
+            {},
             {}
         ]
     },
     {
         "id": 61,
-        "title": "Taxi zum Klo",
-        "author": "Tomlin Knight",
-        "year": 1991,
+        "title": "Your Vice is a Locked Room and Only I Have the Key",
+        "author": "Susie Krauze",
+        "year": 2003,
         "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum reiciendis explicabo aliquam temporibus possimus provident tempora quis inventore. Quae, sit.",
+        "words": 61,
         "likes": 61,
         "comments": [
+            {},
+            {},
             {}
         ]
     },
     {
         "id": 62,
-        "title": "Good Men, Good Women (Hao nan hao nu)",
-        "author": "Allix Novill",
-        "year": 2011,
+        "title": "Life in a Day",
+        "author": "Ches Otter",
+        "year": 1993,
         "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum reiciendis explicabo aliquam temporibus possimus provident tempora quis inventore. Quae, sit.",
+        "words": 62,
         "likes": 62,
-        "comments": []
+        "comments": [
+            {},
+            {},
+            {}
+        ]
     },
     {
         "id": 63,
-        "title": "Marrying Man, The (Too Hot to Handle)",
-        "author": "Josey Aujouanet",
-        "year": 1998,
+        "title": "Anna Karenina",
+        "author": "Klement Grogono",
+        "year": 2005,
         "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum reiciendis explicabo aliquam temporibus possimus provident tempora quis inventore. Quae, sit.",
+        "words": 63,
         "likes": 63,
-        "comments": []
+        "comments": [
+            {},
+            {},
+            {}
+        ]
     },
     {
         "id": 64,
-        "title": "Bronx Tale, A",
-        "author": "Cooper Bradlaugh",
-        "year": 2010,
+        "title": "Beyond the Poseidon Adventure",
+        "author": "Valdemar Farreil",
+        "year": 2006,
         "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum reiciendis explicabo aliquam temporibus possimus provident tempora quis inventore. Quae, sit.",
+        "words": 64,
         "likes": 64,
         "comments": [
-            {},
             {},
             {}
         ]
     },
     {
         "id": 65,
-        "title": "Christmas Carol: The Musical, A (Christmas Carol, A)",
-        "author": "Brnaba Ghiraldi",
-        "year": 1992,
+        "title": "Finders Keepers",
+        "author": "Verge Icom",
+        "year": 1991,
         "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum reiciendis explicabo aliquam temporibus possimus provident tempora quis inventore. Quae, sit.",
+        "words": 65,
         "likes": 65,
-        "comments": []
+        "comments": [
+            {},
+            {},
+            {}
+        ]
     },
     {
         "id": 66,
-        "title": "Haunted House 2, A",
-        "author": "Carroll Beardow",
-        "year": 1990,
+        "title": "Steel Trap, The",
+        "author": "Breanne Hammelberg",
+        "year": 1999,
         "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum reiciendis explicabo aliquam temporibus possimus provident tempora quis inventore. Quae, sit.",
+        "words": 66,
         "likes": 66,
         "comments": [
+            {},
+            {},
+            {},
+            {},
             {}
         ]
     },
     {
         "id": 67,
-        "title": "OMG Oh My God!",
-        "author": "Killy Ortzen",
-        "year": 1991,
+        "title": "Superweib, Das",
+        "author": "Adham Gauntlett",
+        "year": 2004,
         "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum reiciendis explicabo aliquam temporibus possimus provident tempora quis inventore. Quae, sit.",
+        "words": 67,
         "likes": 67,
         "comments": [
             {},
@@ -759,10 +942,11 @@
     },
     {
         "id": 68,
-        "title": "The Wonders",
-        "author": "Berty Arnaudon",
-        "year": 1986,
+        "title": "Seeing Other People",
+        "author": "Neile Brierton",
+        "year": 2010,
         "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum reiciendis explicabo aliquam temporibus possimus provident tempora quis inventore. Quae, sit.",
+        "words": 68,
         "likes": 68,
         "comments": [
             {}
@@ -770,24 +954,28 @@
     },
     {
         "id": 69,
-        "title": "Plumm Summer, A",
-        "author": "Arabela Rasell",
-        "year": 2002,
+        "title": "Educating Rita",
+        "author": "Jere Dubbin",
+        "year": 2004,
         "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum reiciendis explicabo aliquam temporibus possimus provident tempora quis inventore. Quae, sit.",
+        "words": 69,
         "likes": 69,
         "comments": [
+            {},
             {},
             {}
         ]
     },
     {
         "id": 70,
-        "title": "Silk",
-        "author": "Gorden Shapero",
-        "year": 1986,
+        "title": "The Expedition to the End of the World",
+        "author": "Cletis Bloodworth",
+        "year": 2002,
         "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum reiciendis explicabo aliquam temporibus possimus provident tempora quis inventore. Quae, sit.",
+        "words": 70,
         "likes": 70,
         "comments": [
+            {},
             {},
             {},
             {}
@@ -795,41 +983,51 @@
     },
     {
         "id": 71,
-        "title": "G.I. Joe: Operation Dragonfire",
-        "author": "Neill Vedekhin",
-        "year": 2009,
+        "title": "The Amazing Catfish",
+        "author": "Corabella Offner",
+        "year": 2004,
         "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum reiciendis explicabo aliquam temporibus possimus provident tempora quis inventore. Quae, sit.",
+        "words": 71,
         "likes": 71,
         "comments": [
+            {}
+        ]
+    },
+    {
+        "id": 72,
+        "title": "Strike Up the Band",
+        "author": "Lissy Grelak",
+        "year": 2011,
+        "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum reiciendis explicabo aliquam temporibus possimus provident tempora quis inventore. Quae, sit.",
+        "words": 72,
+        "likes": 72,
+        "comments": [
+            {},
             {},
             {},
             {}
         ]
     },
     {
-        "id": 72,
-        "title": "Winnie the Pooh and the Honey Tree",
-        "author": "Cleavland Volke",
-        "year": 1996,
-        "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum reiciendis explicabo aliquam temporibus possimus provident tempora quis inventore. Quae, sit.",
-        "likes": 72,
-        "comments": []
-    },
-    {
         "id": 73,
-        "title": "Not Your Typical Bigfoot Movie",
-        "author": "Ebonee Skylett",
-        "year": 2002,
+        "title": "Madhouse",
+        "author": "Felicdad Jzak",
+        "year": 1999,
         "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum reiciendis explicabo aliquam temporibus possimus provident tempora quis inventore. Quae, sit.",
+        "words": 73,
         "likes": 73,
-        "comments": []
+        "comments": [
+            {},
+            {}
+        ]
     },
     {
         "id": 74,
-        "title": "Storm Center",
-        "author": "Koo Owlner",
-        "year": 2007,
+        "title": "Jakob the Liar",
+        "author": "Hillery Keune",
+        "year": 1989,
         "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum reiciendis explicabo aliquam temporibus possimus provident tempora quis inventore. Quae, sit.",
+        "words": 74,
         "likes": 74,
         "comments": [
             {},
@@ -839,51 +1037,70 @@
     },
     {
         "id": 75,
-        "title": "Drunks",
-        "author": "Niel Etheredge",
-        "year": 2012,
+        "title": "Under Capricorn",
+        "author": "Sam Hedderly",
+        "year": 1999,
         "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum reiciendis explicabo aliquam temporibus possimus provident tempora quis inventore. Quae, sit.",
+        "words": 75,
         "likes": 75,
-        "comments": []
+        "comments": [
+            {},
+            {},
+            {}
+        ]
     },
     {
         "id": 76,
-        "title": "Bon Cop, Bad Cop",
-        "author": "Julianne Nast",
+        "title": "Countess, The",
+        "author": "Flemming Stedmond",
         "year": 2012,
         "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum reiciendis explicabo aliquam temporibus possimus provident tempora quis inventore. Quae, sit.",
+        "words": 76,
         "likes": 76,
         "comments": [
+            {},
+            {},
             {},
             {}
         ]
     },
     {
         "id": 77,
-        "title": "Nick and Norah's Infinite Playlist",
-        "author": "Liliane McGrath",
-        "year": 2011,
+        "title": "My Life in Orange (Sommer in Orange)",
+        "author": "Danita Arnauduc",
+        "year": 2010,
         "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum reiciendis explicabo aliquam temporibus possimus provident tempora quis inventore. Quae, sit.",
+        "words": 77,
         "likes": 77,
-        "comments": []
+        "comments": [
+            {},
+            {}
+        ]
     },
     {
         "id": 78,
-        "title": "Nancy Drew: Detective",
-        "author": "Emelita Kohnert",
-        "year": 2011,
+        "title": "Too Early, Too Late (Trop tôt, trop tard)",
+        "author": "Den Whitlam",
+        "year": 2010,
         "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum reiciendis explicabo aliquam temporibus possimus provident tempora quis inventore. Quae, sit.",
+        "words": 78,
         "likes": 78,
-        "comments": []
+        "comments": [
+            {},
+            {},
+            {}
+        ]
     },
     {
         "id": 79,
-        "title": "High Life",
-        "author": "Isac Loos",
-        "year": 2006,
+        "title": "Sidekicks",
+        "author": "Niles Norwood",
+        "year": 2005,
         "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum reiciendis explicabo aliquam temporibus possimus provident tempora quis inventore. Quae, sit.",
+        "words": 79,
         "likes": 79,
         "comments": [
+            {},
             {},
             {},
             {}
@@ -891,21 +1108,27 @@
     },
     {
         "id": 80,
-        "title": "Back Street",
-        "author": "Orv O'Hagan",
-        "year": 2010,
+        "title": "New Wave (Nouvelle vague)",
+        "author": "Mallorie Glenister",
+        "year": 1993,
         "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum reiciendis explicabo aliquam temporibus possimus provident tempora quis inventore. Quae, sit.",
+        "words": 80,
         "likes": 80,
         "comments": [
+            {},
+            {},
+            {},
+            {},
             {}
         ]
     },
     {
         "id": 81,
-        "title": "Lili Marleen",
-        "author": "Nissy Blasio",
-        "year": 2004,
+        "title": "American Heist",
+        "author": "Corabel Cockhill",
+        "year": 2011,
         "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum reiciendis explicabo aliquam temporibus possimus provident tempora quis inventore. Quae, sit.",
+        "words": 81,
         "likes": 81,
         "comments": [
             {},
@@ -914,64 +1137,84 @@
     },
     {
         "id": 82,
-        "title": "Brotherhood of Death",
-        "author": "Lisha Grindlay",
-        "year": 2009,
+        "title": "On the Road to Emmaus (Emmauksen tiellä)",
+        "author": "Arel Cadle",
+        "year": 2010,
         "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum reiciendis explicabo aliquam temporibus possimus provident tempora quis inventore. Quae, sit.",
+        "words": 82,
         "likes": 82,
-        "comments": [
-            {}
-        ]
-    },
-    {
-        "id": 83,
-        "title": "Any Number Can Play",
-        "author": "Skye Gallally",
-        "year": 2001,
-        "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum reiciendis explicabo aliquam temporibus possimus provident tempora quis inventore. Quae, sit.",
-        "likes": 83,
         "comments": [
             {},
             {}
         ]
     },
     {
-        "id": 84,
-        "title": "12 Angry Men",
-        "author": "Sophey Spellecy",
-        "year": 2009,
+        "id": 83,
+        "title": "Brothers Grimm, The",
+        "author": "Harley Romaint",
+        "year": 1995,
         "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum reiciendis explicabo aliquam temporibus possimus provident tempora quis inventore. Quae, sit.",
+        "words": 83,
+        "likes": 83,
+        "comments": [
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    },
+    {
+        "id": 84,
+        "title": "Fraternity Demon",
+        "author": "Marcel Gabbatt",
+        "year": 2006,
+        "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum reiciendis explicabo aliquam temporibus possimus provident tempora quis inventore. Quae, sit.",
+        "words": 84,
         "likes": 84,
         "comments": [
+            {},
+            {},
+            {},
+            {},
             {}
         ]
     },
     {
         "id": 85,
-        "title": "Birdman",
-        "author": "Pascal Johananoff",
-        "year": 2013,
+        "title": "Perils of Pauline, The",
+        "author": "Alexia Weins",
+        "year": 2010,
         "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum reiciendis explicabo aliquam temporibus possimus provident tempora quis inventore. Quae, sit.",
+        "words": 85,
         "likes": 85,
         "comments": [
+            {},
+            {},
+            {},
+            {},
             {}
         ]
     },
     {
         "id": 86,
-        "title": "Hamlet",
-        "author": "Derward Watt",
-        "year": 2007,
+        "title": "Adventures of Mary-Kate and Ashley, The: The Case of the Christmas Caper",
+        "author": "Aurie Woodward",
+        "year": 2004,
         "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum reiciendis explicabo aliquam temporibus possimus provident tempora quis inventore. Quae, sit.",
+        "words": 86,
         "likes": 86,
-        "comments": []
+        "comments": [
+            {}
+        ]
     },
     {
         "id": 87,
-        "title": "Midnight Cowboy",
-        "author": "Rosana Stud",
-        "year": 2005,
+        "title": "Misérables, Les",
+        "author": "Paten Sheron",
+        "year": 2001,
         "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum reiciendis explicabo aliquam temporibus possimus provident tempora quis inventore. Quae, sit.",
+        "words": 87,
         "likes": 87,
         "comments": [
             {}
@@ -979,10 +1222,11 @@
     },
     {
         "id": 88,
-        "title": "I Don't Know How She Does It",
-        "author": "Kimmie Mitford",
-        "year": 2011,
+        "title": "Beyond Re-Animator",
+        "author": "Gare Arnal",
+        "year": 1994,
         "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum reiciendis explicabo aliquam temporibus possimus provident tempora quis inventore. Quae, sit.",
+        "words": 88,
         "likes": 88,
         "comments": [
             {},
@@ -992,28 +1236,35 @@
     },
     {
         "id": 89,
-        "title": "Battered Bastards of Baseball, The",
-        "author": "Bryce Jarlmann",
-        "year": 2010,
+        "title": "Uptown Saturday Night",
+        "author": "Kathie Toping",
+        "year": 1994,
         "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum reiciendis explicabo aliquam temporibus possimus provident tempora quis inventore. Quae, sit.",
+        "words": 89,
         "likes": 89,
-        "comments": []
+        "comments": [
+            {}
+        ]
     },
     {
         "id": 90,
-        "title": "Liz & Dick ",
-        "author": "Gus De Caville",
-        "year": 2006,
+        "title": "I Am Not a Hipster",
+        "author": "Sigismond Baudic",
+        "year": 2004,
         "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum reiciendis explicabo aliquam temporibus possimus provident tempora quis inventore. Quae, sit.",
+        "words": 90,
         "likes": 90,
-        "comments": []
+        "comments": [
+            {}
+        ]
     },
     {
         "id": 91,
-        "title": "Planet Ocean",
-        "author": "Orson Garrigan",
-        "year": 2003,
+        "title": "Lumumba",
+        "author": "Berny Jurisch",
+        "year": 2002,
         "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum reiciendis explicabo aliquam temporibus possimus provident tempora quis inventore. Quae, sit.",
+        "words": 91,
         "likes": 91,
         "comments": [
             {},
@@ -1023,35 +1274,45 @@
     },
     {
         "id": 92,
-        "title": "Only the Strong",
-        "author": "Dorey Le Gassick",
-        "year": 2010,
+        "title": "Seventh Victim, The",
+        "author": "Adeline Gulleford",
+        "year": 1966,
         "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum reiciendis explicabo aliquam temporibus possimus provident tempora quis inventore. Quae, sit.",
+        "words": 92,
         "likes": 92,
         "comments": [
+            {},
+            {},
+            {},
             {}
         ]
     },
     {
         "id": 93,
-        "title": "Mothra (Mosura)",
-        "author": "Chloris Stroulger",
-        "year": 1999,
+        "title": "Bread and Tulips (Pane e tulipani)",
+        "author": "Micaela Udell",
+        "year": 2000,
         "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum reiciendis explicabo aliquam temporibus possimus provident tempora quis inventore. Quae, sit.",
+        "words": 93,
         "likes": 93,
         "comments": [
+            {},
+            {},
             {},
             {}
         ]
     },
     {
         "id": 94,
-        "title": "Arranged",
-        "author": "Yolane Twitchett",
-        "year": 1994,
+        "title": "Brainstorm",
+        "author": "Stevena Braven",
+        "year": 1997,
         "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum reiciendis explicabo aliquam temporibus possimus provident tempora quis inventore. Quae, sit.",
+        "words": 94,
         "likes": 94,
         "comments": [
+            {},
+            {},
             {},
             {},
             {}
@@ -1059,10 +1320,11 @@
     },
     {
         "id": 95,
-        "title": "Off Limits",
-        "author": "Gavra Castelyn",
-        "year": 2009,
+        "title": "Viva",
+        "author": "Binnie Ochterlonie",
+        "year": 1992,
         "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum reiciendis explicabo aliquam temporibus possimus provident tempora quis inventore. Quae, sit.",
+        "words": 95,
         "likes": 95,
         "comments": [
             {}
@@ -1070,44 +1332,57 @@
     },
     {
         "id": 96,
-        "title": "Son of Batman",
-        "author": "Marcelia Frizzell",
-        "year": 2007,
+        "title": "Pick-up Summer (Pinball Summer)",
+        "author": "Stacie Battaille",
+        "year": 1987,
         "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum reiciendis explicabo aliquam temporibus possimus provident tempora quis inventore. Quae, sit.",
+        "words": 96,
         "likes": 96,
-        "comments": [
-            {}
-        ]
-    },
-    {
-        "id": 97,
-        "title": "B. Monkey",
-        "author": "Eddie Welsh",
-        "year": 2010,
-        "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum reiciendis explicabo aliquam temporibus possimus provident tempora quis inventore. Quae, sit.",
-        "likes": 97,
-        "comments": []
-    },
-    {
-        "id": 98,
-        "title": "Moonrise Kingdom",
-        "author": "Darice Draycott",
-        "year": 2007,
-        "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum reiciendis explicabo aliquam temporibus possimus provident tempora quis inventore. Quae, sit.",
-        "likes": 98,
         "comments": [
             {},
             {}
         ]
     },
     {
-        "id": 99,
-        "title": "Sergeant York",
-        "author": "Brandea Shimon",
-        "year": 1992,
+        "id": 97,
+        "title": "Young Tom Edison",
+        "author": "Sasha Bambury",
+        "year": 2004,
         "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum reiciendis explicabo aliquam temporibus possimus provident tempora quis inventore. Quae, sit.",
+        "words": 97,
+        "likes": 97,
+        "comments": [
+            {},
+            {},
+            {}
+        ]
+    },
+    {
+        "id": 98,
+        "title": "Revolver",
+        "author": "Gerianna Lintall",
+        "year": 2012,
+        "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum reiciendis explicabo aliquam temporibus possimus provident tempora quis inventore. Quae, sit.",
+        "words": 98,
+        "likes": 98,
+        "comments": [
+            {},
+            {},
+            {},
+            {}
+        ]
+    },
+    {
+        "id": 99,
+        "title": "Little Indian, Big City (Un indien dans la ville)",
+        "author": "Kristofor Caile",
+        "year": 2004,
+        "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum reiciendis explicabo aliquam temporibus possimus provident tempora quis inventore. Quae, sit.",
+        "words": 99,
         "likes": 99,
         "comments": [
+            {},
+            {},
             {},
             {},
             {}
@@ -1115,10 +1390,11 @@
     },
     {
         "id": 100,
-        "title": "Bitter Rice (Riso amaro)",
-        "author": "Gabriel Ilyuchyov",
-        "year": 1986,
+        "title": "Quackser Fortune Has a Cousin in the Bronx",
+        "author": "Ransom Loghan",
+        "year": 2002,
         "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum reiciendis explicabo aliquam temporibus possimus provident tempora quis inventore. Quae, sit.",
+        "words": 100,
         "likes": 100,
         "comments": [
             {}
