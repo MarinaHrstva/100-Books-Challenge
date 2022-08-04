@@ -1,46 +1,57 @@
-.hero-section {
-    background-color: black;
-    opacity: 0.7;
-   width: 100vw;
-   height: 90vh;
+.hero-section-container{
+    width: 100vw;
+    height: 90vh;
+}
 
+
+.hero-section {
+    background-color: transparent;
+    /* border: 1px solid #f39d00; */
+    width: 80%;
+    height: 300px;
+    margin-left: 14rem;
+    position: absolute;
+    z-index: 2;
+    top: 300px;
     color: white;
 }
 
+.hero-section-overlay {
+    background-color: black;
+    position: absolute;
+    opacity: 0.7;
+    top: 80px;
+    left: 0;
+    width: 100vw;
+    height:91vh;
+}
+
 .hero-section h1 {
-    /* width: 500px; */
+
     font-family: 'Cormorant SC', serif;
-    font-size: 150px;
-}
-
-.hero-section h1 {
+    font-size: 120px;
     display: block;
+    margin-left: auto;
 }
 
-/* .hero-section button {
-    transform: translate(500px);
-} */
 
 .button-primary {
     background-image: linear-gradient(to bottom, #f39d00, #f7ad04, #fabd0e, #fdcd1a, #fedd27, #fedd27, #fedd27, #fedd27, #fdcd1a, #fabd0e, #f7ad04, #f39d00);
     margin-top: 1rem;
-    margin-left: 3rem;
+    margin-left: 70%; 
     transition: all 0.7s ease-in-out;
-    position: absolute;
-    top:70%;
-    left: 55%;
-    
+
 }
 
-.button-primary:hover{
+.button-primary:hover {
     font-weight: bold;
     padding: 0.5rem;
- 
+
 }
 
-.hero-section p{
-    margin-top: 4rem;
-    margin-left: 6rem;
+.hero-section p {
+    margin-top: 1rem;
+    margin-left: 9rem;
     font-size: 28px;
     letter-spacing: 3px;
 }
