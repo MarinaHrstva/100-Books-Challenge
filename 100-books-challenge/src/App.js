@@ -8,6 +8,8 @@ import { Achievements } from './components/achievements/Achievements';
 import { Footer } from './components/footer/Footer';
 import { MyBooks } from './components/my-books-section/MyBooks'
 
+import BookDetails from './components/catalog/BookCard/BookDetails/BookDetails';
+
 import './App.css';
 
 function App() {
@@ -16,7 +18,8 @@ function App() {
       <Header />
  
         {/* <HeroSection /> */}
-        <Catalog />
+        {/* <Catalog /> */}
+        <BookDetails/>
         {/* <Login /> */}
         {/* <Register /> */}
         {/* <Achievements /> */}

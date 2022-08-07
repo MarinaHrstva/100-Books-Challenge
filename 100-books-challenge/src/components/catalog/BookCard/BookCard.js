@@ -16,8 +16,9 @@ const BookCard = ({
                 <p>Author: Book Author</p>
                 <p>Likes:18888</p>
                 <button>Details</button>
-                <button>Like</button>
+                
             </div>
+            
         </article>
     );
 }

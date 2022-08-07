@@ -17,7 +17,8 @@
 }
 
 .book-card:hover{
-    box-shadow: 0px 2px 20px 5px #ff9205;
+    box-shadow: 0px 2px 20px 5px #d78111;
+    background-color:#d8670a ;
 }
 
 .card-imgage-wraper {
