@@ -1,3 +1,7 @@
+.login {
+    min-height: 90vh;
+}
+
 .login form {
     color: #fef857;
 
@@ -25,7 +29,7 @@
     border: 0.5px solid orange;
     border-radius: 8px;
     background-color: #4A2c2c;
-    opacity: 0.5;
+    opacity: 0.7;
     width: 400px;
     height: 300px;
     position: absolute;
@@ -36,9 +40,11 @@
 
 }
 
-.login form label{
+.login form label {
     padding: 0.25rem;
 }
+
+
 .login form input {
     display: block;
     height: 40px;
@@ -48,7 +54,7 @@
     border-radius: 8px;
 }
 
-.login-button{
+.login-button {
     margin-top: 0.75rem;
     padding-inline: 1rem;
 }

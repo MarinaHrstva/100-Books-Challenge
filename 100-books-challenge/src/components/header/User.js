@@ -3,14 +3,13 @@ export const User = () => {
 
     return (
         <div className="user">
+            <p>Hello, <span>username</span></p>
+            <p>Finished Books: 7</p>
+            <p>Total words: 100000</p>
             <ul >
-                <li><button>Catalog</button></li>
-                <li><a href="">Catalogue</a></li>
-                <li><a href="">Achievements</a></li>
-                <li><a href="">My Books</a></li>
-
+                <li><button>My Book</button></li>
+                <li><button>Logout</button></li>
             </ul>
-            <button>Log out</button>
         </div>
     )
 }
