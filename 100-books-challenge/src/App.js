@@ -23,12 +23,6 @@ function App() {
         <Route path='/register' element={<Register />} />
         <Route path='/my-books' element={<MyBooks />} />
         <Route path='/catalog/:bookId' element={<BookDetails />} />
-        <Route />
-
-
-        {/* <BookDetails/> */}
-
-
       </Routes>
 
       <Footer />
