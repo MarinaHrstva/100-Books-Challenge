@@ -16,9 +16,19 @@ const BookDetails = ({
                 <p>Likes:1000</p>
 
             </div>
+            <div className="book-details-comments-container">
+               
+                <p className='comment'>Ivan Ivanov: Chudesna kniga</p>
+                <p className='comment'>Ivan Ivanov: Chudesna kniga</p>
+                <p className='comment'>Ivan Ivanov: Chudesna kniga</p>
+              
+
+            </div>
             <div className="book-detail-button-container">
                 <button>Like</button>
                 <button>Add to My Books</button>
+                <button>Add Comment</button>
+
             </div>
         </div>
     );
