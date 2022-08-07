@@ -28,7 +28,7 @@
     background-color: #4A2c2c;
     opacity: 0.7;
     width: 400px;
-    height: 450px;
+    height: 600px;
     position: absolute;
     z-index: 999;
 
@@ -53,4 +53,9 @@
 
 .register-button {
     margin-top: 0.75rem;
+}
+
+.error-text{
+    color: red;
+    font-size: 12px;
 }
