@@ -7,7 +7,7 @@ import { Catalog } from './components/catalog/Catalog';
 import { Login } from './components/login/Login';
 import { Register } from './components/register/Register';
 import { Footer } from './components/footer/Footer';
-import { MyBooks } from './components/my-books-section/MyBooks'
+import { Create } from './components/create/Create';
 import BookDetails from './components/catalog/BookCard/BookDetails/BookDetails';
 
 import './App.css';
@@ -18,11 +18,11 @@ function App() {
       <Header />
       <Routes>
         <Route path='/' element={<HeroSection />} />
-        <Route path='/catalog' element={<Catalog />} />
+        <Route path='/books' element={<Catalog />} />
         <Route path='/login' element={<Login />} />
         <Route path='/register' element={<Register />} />
-        <Route path='/my-books' element={<MyBooks />} />
-        <Route path='/catalog/:bookId' element={<BookDetails />} />
+        <Route path='/create' element={<Create />} />
+        <Route path='/books/:bookId' element={<BookDetails />} />
       </Routes>
 
       <Footer />

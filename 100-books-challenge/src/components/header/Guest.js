@@ -5,13 +5,13 @@ export const Guest = () => {
 
     return (
         <ul className="guest">
-            <Link to='/catalog'>
+            <Link to='/books'>
                 <li><button>Catalog</button></li>
             </Link>
             <Link to='/login'>
                 <li><button>Login</button></li>
             </Link>
-            <Link to='register'>
+            <Link to='/register'>
                 <li><button>Register</button></li>
             </Link>
         </ul>
