@@ -8,21 +8,23 @@ export const Create = () => {
         <section class="create">
             <div>
                 <form>
-                    <label for="title"> Book Title:
-                        <input type="text" name="title" placeholder="Book title" />
-
+                    <label htmlFor="title"> Book Title:
+                        <input type="text" name="title" placeholder="Book title" id='title'/>
                     </label>
-                    <label for="author">Book Author:
-                        <input type="text" name="author" placeholder="Book author" />
+                    <label htmlFor="author">Book Author:
+                        <input type="text" name="author" placeholder="Book author" id='author' />
                     </label>
-                    <label for="email">Email:
-                        <input type="text" name="emai" placeholder="example@mail.com" />
+                    <label htmlFor="category">Category:
+                        <input type="text" name="category" placeholder="Fantasy" />
                     </label>
-                    <label for="password"> Password:
-                        <input type="password" name="password" placeholder="******" />
+                    <label htmlFor="year"> Year:
+                        <input type="text" name="year" placeholder="1994" id='year' />
                     </label>
-                    <label for="confirm-password"> Confirm Password:
-                        <input type="password" name="confirm-password" placeholder="******" />
+                    <label htmlFor="imageUrl"> Image URL:
+                        <input type="text" name="imageUrl" placeholder="imageUrl" id='imageUrl' />
+                    </label>
+                    <label htmlFor="wordsCount"> Image URL:
+                        <input type="text" name="wordsCount" placeholder="10000" id='wordsCount' />
                     </label>
 
                     <button className='create-button'>Add</button>

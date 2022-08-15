@@ -15,8 +15,8 @@ export const Header = () => {
             </Link>
             <nav>
            
-                <Guest />
-                {/* <User /> */}
+                {/* <Guest /> */}
+                <User />
             </nav>
         </header>
     )
