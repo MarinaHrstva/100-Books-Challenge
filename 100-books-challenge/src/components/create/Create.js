@@ -8,13 +8,12 @@ export const Create = () => {
         <section class="create">
             <div>
                 <form>
-                    <label for="title"> First Name:
+                    <label for="title"> Book Title:
                         <input type="text" name="title" placeholder="Book title" />
 
                     </label>
-                    <label for="lastname">Last Name:
-                        <input type="text" name="lastname" placeholder="Ivanov" />
-
+                    <label for="author">Book Author:
+                        <input type="text" name="author" placeholder="Book author" />
                     </label>
                     <label for="email">Email:
                         <input type="text" name="emai" placeholder="example@mail.com" />
@@ -33,4 +32,4 @@ export const Create = () => {
             <div className='create-form-overlay'></div>
         </section>
     )
-    }
+}
