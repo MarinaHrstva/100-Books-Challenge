@@ -29,29 +29,26 @@ const BookDetails = () => {
                 <p>Year: {book.year}</p>
                 <p>Words: {book.wordsCount}</p>
                 {/* <p>Likes:1000</p> */}
-
             </div>
-
-
-            {user._id != book._ownerId
-                ? <div className="book-non-owner-buttons">
-                    <button>Like</button>
-                    <button>Add Comment</button>
-                </div>
-                : <div className="book-owner-buttons">
-                    <button>Edit</button>
-                    <button>Detele</button>
-                </div>
-            }
-
 
             <div className="book-details-comments-container">
                 <p className='comment'>Ivan Ivanov: Chudesna kniga</p>
                 <p className='comment'>Ivan Ivanov: Chudesna kniga</p>
                 <p className='comment'>Ivan Ivanov: Chudesna kniga</p>
-
             </div>
-        </div>
+
+            {user._id != book._ownerId
+                ? <div className="book-details-buttons" style={user == '' ? { display: 'flex' } : { display: 'none' }}>
+                    <button>Like</button>
+                    <button>Add Comment</button>
+                </div>
+                : <div className="book-details-buttons" style={user == '' ? { display: 'flex' } : { display: 'none' }} >
+                    <button>Edit</button>
+                    <button>Detele</button>
+                </div>
+            }
+
+        </div >
     );
 }
 
