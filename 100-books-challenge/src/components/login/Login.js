@@ -7,7 +7,7 @@ import { UserContext } from '../../contexts/UserContext';
 import './Login.css'
 
 export const Login = () => {
-    const { userLogin } = useContext(UserContext)
+    const { userLogin } = useContext(UserContext);
 
     const navigate = useNavigate();
     async function onSubmit(e) {

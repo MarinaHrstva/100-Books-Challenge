@@ -1,23 +1,51 @@
 
+import { useContext } from 'react'
+import { useState } from 'react'
+import { useNavigate } from 'react-router-dom'
+import { register } from '../../api/users'
+import { UserContext } from '../../contexts/UserContext'
 import './Register.css'
 
 export const Register = () => {
+    const navigate = useNavigate();
+    const { userLogin } = useContext(UserContext);
+    const [user, setUser] = useState({
+        email: '',
+        password: ''
+    })
+
+    function onChange(e) {
+        setUser(state => ({
+            ...state,
+            [e.target.name]: e.target.value
+        }))
+
+    }
+
+
+    async function onSubmit(e) {
+        e.preventDefault()
+
+        const userData = await register(user.email, user.password);
+        userLogin(userData);
+        navigate('/')
+    }
 
     return (
         <section class="register">
             <div>
-                <form>
-                
+                <form onSubmit={onSubmit}>
+
                     <label htmlFor="email">Email:
-                        <input type="text" name="emai" placeholder="example@mail.com" />
+                        <input type="text" name="email" placeholder="example@mail.com" value={user.email} onChange={onChange} />
                         <p className='error-text'>Email is not valid!</p>
                     </label>
                     <label htmlFor="password"> Password:
-                        <input type="password" name="password" placeholder="******" />
+                        <input type="password" name="password" placeholder="******" value={user.password} onChange={onChange} />
                         <p className='error-text'> Password should be at least 6 characters long!</p>
                     </label>
                     <label htmlFor="confirm-password"> Confirm Password:
-                        <input type="password" name="confirm-password" placeholder="******" />
+                        <input type="password" name="confirm-password" placeholder="******" onChange={onChange} />
                         <p className='error-text'> The password confirmation does not match!</p>
                     </label>
 
