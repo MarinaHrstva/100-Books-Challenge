@@ -1,4 +1,4 @@
-import { clearUserData, getUserData } from "../util.js";
+import { clearUserData, getUserData } from "../utils/util";
 
 const host = 'http://localhost:3030'
 
@@ -25,7 +25,7 @@ async function request(url, method, data) {
 
         if (res.ok == false) {
             if (res.status == 403) {
-                clearUserData
+                clearUserData()
             }
 
             const error = await res.json();
