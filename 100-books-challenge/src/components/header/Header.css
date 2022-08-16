@@ -5,6 +5,7 @@ header {
 
     width: 100%;
     height: 5rem;
+    padding-inline: 2rem;
 
     display: flex;
     justify-content: space-between;
