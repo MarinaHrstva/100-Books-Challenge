@@ -15,9 +15,8 @@ const BookCard = ({
             <div className='card-text-wrapper'>
                 <p>{book.title}</p>
                 <p>{book.author}</p>
-                {/* <p>Likes:18888</p> */}
                 <Link to={`/books/${book._id}`}>
-                <button>Details</button>
+                    <button>Details</button>
                 </Link>
 
             </div>

@@ -5,9 +5,7 @@ export const Guest = () => {
 
     return (
         <ul className="guest">
-            <Link to='/books'>
-                <li><button>Catalog</button></li>
-            </Link>
+
             <Link to='/login'>
                 <li><button>Login</button></li>
             </Link>

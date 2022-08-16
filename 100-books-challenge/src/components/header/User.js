@@ -16,7 +16,6 @@ export const User = () => {
 
     return (
         <div className="user">
-            <p>Hello, <span>{user.email}</span></p>
 
             <ul >
                 <Link to='/profile'>

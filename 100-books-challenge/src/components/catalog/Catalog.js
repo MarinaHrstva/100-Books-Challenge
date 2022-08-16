@@ -15,7 +15,7 @@ export const Catalog = () => {
 
             <div className="catalod-wraper">
                 {books.length > 0
-                    ? books.map(b=><BookCard book={b}/>)
+                    ? books.map(b=><BookCard book={b} key={b._id}/>)
                     : <p>No books yet!</p>}
             </div>
 

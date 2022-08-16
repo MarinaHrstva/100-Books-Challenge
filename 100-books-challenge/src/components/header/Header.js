@@ -20,6 +20,11 @@ export const Header = () => {
                 </div>
             </Link>
             <nav>
+                {user.email && <p>Hello, <span>{user.email}</span></p>}
+
+                < Link to='/books'>
+                   <button id='catalogBtn'>Catalog</button>
+                </Link>
                 {user.email
                     ? <User />
                     : <Guest />

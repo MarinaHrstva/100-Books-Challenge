@@ -7,15 +7,7 @@ export const Register = () => {
         <section class="register">
             <div>
                 <form>
-                    <label htmlFor="firstname"> First Name:
-                        <input type="text" name="firstname" placeholder="Ivan" />
-                        <p className='error-text'> First name should be at least 3 characters long!</p>
-                    </label>
-                    <label htmlFor="lastname">Last Name:
-                        <input type="text" name="lastname" placeholder="Ivanov" />
-                        <p className='error-text'> Last name should be at least 3 characters long!</p>
-
-                    </label>
+                
                     <label htmlFor="email">Email:
                         <input type="text" name="emai" placeholder="example@mail.com" />
                         <p className='error-text'>Email is not valid!</p>
