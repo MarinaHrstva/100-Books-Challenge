@@ -18,7 +18,11 @@ export const Login = () => {
             password
         } = Object.fromEntries(new FormData(e.target));
 
+        if (email == '' || password == '') {
+            return alert('All fields are required!')
+        }
 
+        
         const userData = await login(email, password);
         userLogin(userData);
         navigate('/')

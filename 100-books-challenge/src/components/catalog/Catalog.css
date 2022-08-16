@@ -4,14 +4,15 @@
     width: 100%;
     min-height: 90vh;
     color: #fef857;
-    padding: 3rem;
+    
 }
 
 .catalod-wraper {
     background-color: transparent;
     opacity: 1;
 
-    display: inline-block;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     width: 100%;
     height: 100%;
 }

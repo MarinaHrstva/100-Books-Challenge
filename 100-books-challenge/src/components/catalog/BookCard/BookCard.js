@@ -1,4 +1,5 @@
 
+import { Link } from 'react-router-dom';
 import './BookCard.css'
 
 const BookCard = ({
@@ -8,17 +9,19 @@ const BookCard = ({
 
         <article className="book-card">
             <div className="card-imgage-wraper">
-                <img src="http://smartmobilestudio.com/wp-content/uploads/2012/06/leather-book-preview.png" alt="Book cover" />
+                <img src={book.imageUrl || `http://smartmobilestudio.com/wp-content/uploads/2012/06/leather-book-preview.png`} alt="Book cover" />
 
             </div>
             <div className='card-text-wrapper'>
-                <p>Title: Book Title</p>
-                <p>Author: Book Author</p>
-                <p>Likes:18888</p>
+                <p>{book.title}</p>
+                <p>{book.author}</p>
+                {/* <p>Likes:18888</p> */}
+                <Link to={`/books/${book._id}`}>
                 <button>Details</button>
-                
+                </Link>
+
             </div>
-            
+
         </article>
     );
 }

@@ -1,10 +1,18 @@
 
 import { useContext } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
+import { logout } from '../../api/users';
 import { UserContext } from '../../contexts/UserContext'
 
 export const User = () => {
-    const {user }= useContext(UserContext);
+    const { user, userLogout } = useContext(UserContext);
+    const navigate = useNavigate();
+
+    function onLogout() {
+        logout();
+        userLogout();
+        navigate('/');
+    }
 
     return (
         <div className="user">
@@ -17,7 +25,7 @@ export const User = () => {
                 <Link to='/create'>
                     <li><button>Add Book</button></li>
                 </Link>
-                <li><button>Logout</button></li>
+                <li><button onClick={onLogout}>Logout</button></li>
 
             </ul>
         </div>
