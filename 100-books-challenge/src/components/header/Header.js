@@ -15,7 +15,7 @@ export const Header = () => {
         <header>
             <Link to='/'>
                 <div className="logo-div">
-                    <span className="logo"><i class="fas fa-book-reader"></i></span>
+                    <span className="logo"><i className="fas fa-book-reader"></i></span>
                     <p>100 Books Challenge</p>
                 </div>
             </Link>

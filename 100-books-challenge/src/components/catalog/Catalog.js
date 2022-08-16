@@ -1,8 +1,11 @@
 
+import { useState } from 'react'
 import BookCard from './BookCard/BookCard'
 import './Catalog.css'
 
 export const Catalog = () => {
+    const [books, setBooks] = useState();
+
     return (
         <section className="catalog">
 

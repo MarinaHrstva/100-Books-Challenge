@@ -1,4 +1,5 @@
 import { useContext, useState } from 'react';
+import { useEffect } from 'react';
 import { Routes, Route } from 'react-router-dom';
 
 import { UserContext } from './contexts/UserContext';
@@ -13,37 +14,44 @@ import { Create } from './components/create/Create';
 import BookDetails from './components/catalog/BookCard/BookDetails/BookDetails';
 
 import './App.css';
+import { getAllBooks } from './api/books';
 
 function App() {
-  const [user, setUser] = useState({})
+	const [user, setUser] = useState({});
 
-  const userLogin = (userData) => {
-    setUser(userData)
-  }
+	const userLogin = (userData) => {
+		setUser(userData);
+	}
 
-  return (
-    <UserContext.Provider value={{user, userLogin}}>
+	useEffect(() => {
+		getAllBooks()
+			.then(books => console.log(books))
 
-      <div className="App">
-        <Header />
-        <Routes>
-          <Route path='/' element={<HeroSection />} />
-          <Route path='/books' element={<Catalog />} />
-          <Route path='/login' element={<Login />} />
-          <Route path='/register' element={<Register />} />
-          <Route path='/create' element={<Create />} />
-          <Route path='/books/:bookId' element={<BookDetails />} />
-          {/* <Route path='/books/:bookId' element={<BookDetails />} /> */}
+	}, [])
 
-        </Routes>
+	return (
+		<UserContext.Provider value={{ user, userLogin }}>
 
-        <Footer />
+			<div className="App">
+				<Header />
+				<Routes>
+					<Route path='/' element={<HeroSection />} />
+					<Route path='/books' element={<Catalog />} />
+					<Route path='/login' element={<Login />} />
+					<Route path='/register' element={<Register />} />
+					<Route path='/create' element={<Create />} />
+					<Route path='/books/:bookId' element={<BookDetails />} />
+					{/* <Route path='/books/:bookId' element={<BookDetails />} /> */}
 
-      </div>
-    </UserContext.Provider >
+				</Routes>
+
+				<Footer />
+
+			</div>
+		</UserContext.Provider >
 
 
-  );
+	);
 }
 
 export default App;
