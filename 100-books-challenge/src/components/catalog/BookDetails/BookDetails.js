@@ -1,15 +1,15 @@
 import { useContext } from 'react';
 import { useEffect } from 'react';
 import { useState } from 'react';
-import { useParams } from 'react-router-dom';
-import { getBookById } from '../../../api/books';
+import { useNavigate, useParams } from 'react-router-dom';
+import { deleteBook, getBookById } from '../../../api/books';
 import { UserContext } from '../../../contexts/UserContext';
 import './BookDetails.css'
 
 const BookDetails = () => {
     const { user } = useContext(UserContext);
     const { bookId } = useParams();
-
+    const navigate = useNavigate();
     const [book, setBook] = useState({})
 
     useEffect(() => {
@@ -17,6 +17,10 @@ const BookDetails = () => {
             .then(result => setBook(result))
     }, [bookId])
 
+    async function onDelete() {
+        deleteBook(bookId);
+        navigate('/books')
+    }
 
     return (
         <div className="book-details-wrapper">
@@ -38,13 +42,13 @@ const BookDetails = () => {
             </div>
 
             {user._id != book._ownerId
-                ? <div className="book-details-buttons" style={user == '' ? { display: 'flex' } : { display: 'none' }}>
+                ? <div className="book-details-buttons" style={user == '' ? { display: 'none' } : { display: 'flex' }}>
                     <button>Like</button>
                     <button>Add Comment</button>
                 </div>
-                : <div className="book-details-buttons" style={user == '' ? { display: 'flex' } : { display: 'none' }} >
+                : <div className="book-details-buttons" style={user == '' ? { display: 'none' } : { display: 'flex' }} >
                     <button>Edit</button>
-                    <button>Detele</button>
+                    <button onClick={onDelete}>Detele</button>
                 </div>
             }
 

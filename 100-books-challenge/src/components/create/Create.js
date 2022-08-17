@@ -5,7 +5,7 @@ import { createBook } from '../../api/books'
 import './Create.css'
 
 export const Create = () => {
-const navigate=useNavigate()
+    const navigate = useNavigate()
 
     const [book, setBook] = useState({
         title: '',
@@ -33,9 +33,8 @@ const navigate=useNavigate()
         }
 
         const res = await createBook(book);
-        console.log(res);
         navigate('/')
-        
+
     }
 
     return (

@@ -15,13 +15,13 @@ export async function login(email, password) {
     return result;
 }
 
-export async function register( email, password ) {
+export async function register(email, password) {
     const result = await post('/users/register', { email, password })
 
     const userData = {
         id: result._id,
         email: result.email,
-            accessToken: result.accessToken
+        accessToken: result.accessToken
     }
 
     setUserData(userData);
