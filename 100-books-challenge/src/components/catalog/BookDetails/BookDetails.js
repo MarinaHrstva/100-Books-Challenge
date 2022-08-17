@@ -1,7 +1,7 @@
 import { useContext } from 'react';
 import { useEffect } from 'react';
 import { useState } from 'react';
-import { useNavigate, useParams } from 'react-router-dom';
+import { useNavigate, useParams, Link } from 'react-router-dom';
 import { deleteBook, getBookById } from '../../../api/books';
 import { UserContext } from '../../../contexts/UserContext';
 import './BookDetails.css'
@@ -47,7 +47,9 @@ const BookDetails = () => {
                     <button>Add Comment</button>
                 </div>
                 : <div className="book-details-buttons" style={user == '' ? { display: 'none' } : { display: 'flex' }} >
-                    <button>Edit</button>
+                    <Link to={`/edit/${bookId}`}>
+                        <button>Edit</button>
+                    </Link>
                     <button onClick={onDelete}>Detele</button>
                 </div>
             }

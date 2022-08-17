@@ -1,22 +1,19 @@
+import { useEffect } from 'react'
 import { useState } from 'react'
-import { useNavigate } from 'react-router-dom'
+import { useNavigate, useParams } from 'react-router-dom'
 
-import { createBook } from '../../api/books'
-import './Create.css'
+import { getBookById, updateBook } from '../../api/books'
+import './Edit.css'
 
-export const Create = () => {
-    const navigate = useNavigate()
+export const Edit = () => {
+    const navigate = useNavigate();
+    const { bookId } = useParams()
+    const [book, setBook] = useState('');
 
-    const [book, setBook] = useState({
-        title: '',
-        author: '',
-        category: '',
-        year: '',
-        imageUrl: '',
-        wordsCount: '',
-        summary:'',
-
-    })
+    useEffect(() => {
+        getBookById(bookId)
+            .then(res => setBook(res))
+    }, [bookId])
 
     function onChange(e) {
         setBook(state => ({
@@ -33,14 +30,14 @@ export const Create = () => {
             return alert('All fields are required!')
         }
 
-        const res = await createBook(book);
-        navigate('/')
+        const res = await updateBook(bookId, book);
+        navigate('/books')
 
     }
 
     return (
 
-        <section className="create">
+        <section className="edit">
             <div>
                 <form onSubmit={onSubmit}>
                     <label htmlFor="title"> Book Title:
@@ -65,11 +62,12 @@ export const Create = () => {
                         <input type="textarea" name="summary" placeholder="Book summary..." id='summary' value={book.summary} onChange={onChange} />
                     </label>
 
-                    <button className='create-button'>Add</button>
+                    <button className='edit-button'>Edit</button>
 
                 </form>
             </div>
-            <div className='create-form-overlay'></div>
+            <div className='edit-form-overlay'></div>
         </section>
     )
 }
+

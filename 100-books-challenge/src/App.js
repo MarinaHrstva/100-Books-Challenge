@@ -14,6 +14,7 @@ import { Register } from './components/register/Register';
 import { Footer } from './components/footer/Footer';
 import { Create } from './components/create/Create';
 import BookDetails from './components/catalog/BookDetails/BookDetails';
+import { Edit } from './components/edit/Edit';
 
 import './App.css';
 import { getAllBooks } from './api/books';
@@ -50,7 +51,7 @@ function App() {
 						<Route path='/register' element={<Register />} />
 						<Route path='/create' element={<Create />} />
 						<Route path='/books/:bookId' element={<BookDetails />} />
-						{/* <Route path='/books/:bookId' element={<BookDetails />} /> */}
+						<Route path='/edit/:bookId' element={<Edit />} />
 
 					</Routes>
 

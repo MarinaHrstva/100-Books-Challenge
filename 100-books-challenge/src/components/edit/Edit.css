@@ -1,8 +1,8 @@
-.create {
+.edit {
     min-height: 900px;
 }
 
-.create form {
+.edit form {
     color: #fef857;
     border-radius: 8px;
 
@@ -22,7 +22,7 @@
 
 }
 
-.create-form-overlay {
+.edit-form-overlay {
     border: 0.5px solid orange;
     box-shadow: 3px -3px 32px -1px rgba(255, 146, 5, 0.45);
 
@@ -42,7 +42,7 @@
 
 }
 
-.create form input {
+.edit form input {
     display: block;
     height: 40px;
     width: 350px;
@@ -51,7 +51,7 @@
     padding-inline: 0.5rem;
 }
 
-.create form label {
+.edit form label {
     padding: 0.5rem;
 }
 
@@ -59,10 +59,9 @@
     height: 80px;
 }
 
-.create-button {
+.edit-button {
     margin-top: 0.75rem;
     padding-inline: 1rem;
-   
     width: 180px;
     height: 45px;
 }
