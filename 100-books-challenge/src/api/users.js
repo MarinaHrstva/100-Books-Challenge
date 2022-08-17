@@ -6,7 +6,9 @@ export async function login(email, password) {
 
     const userData = {
         id: result._id,
+        username: result.username,
         email: result.email,
+        gender: result.gender,
         accessToken: result.accessToken
     }
 
@@ -15,12 +17,14 @@ export async function login(email, password) {
     return result;
 }
 
-export async function register(email, password) {
-    const result = await post('/users/register', { email, password })
+export async function register(username, email, password, gender) {
+    const result = await post('/users/register', { username, email, password, gender })
 
     const userData = {
         id: result._id,
+        username: result.username,
         email: result.email,
+        gender: result.gender,
         accessToken: result.accessToken
     }
 
