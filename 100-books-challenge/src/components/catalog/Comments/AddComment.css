@@ -1,0 +1,21 @@
+.add-comment-container form {
+    width: 400px;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    padding: 1rem;
+}
+
+.add-comment-container form input {
+    height: 100px;
+    border-radius: 8px;
+    padding: 0.5rem;
+
+}
+
+.add-comment-container form button{
+    padding-block: 1rem;
+    margin-top: 1rem;
+}

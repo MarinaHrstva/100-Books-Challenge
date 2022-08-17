@@ -5,6 +5,8 @@ import { useNavigate, useParams, Link } from 'react-router-dom';
 import { deleteBook, getBookById } from '../../../api/books';
 import { getAllLikes, getLikesByUserId, likeBook } from '../../../api/likes';
 import { UserContext } from '../../../contexts/UserContext';
+import AddComment from '../Comments/AddComments';
+
 import './BookDetails.css'
 
 const BookDetails = () => {
@@ -37,7 +39,6 @@ const BookDetails = () => {
 
     async function onLike() {
 
-
         if (!isLiked) {
             await likeBook(bookId);
             setIsLiked(true)
@@ -61,17 +62,11 @@ const BookDetails = () => {
                 <p>Words: {book.wordsCount}</p>
                 <p>Likes: {likes}</p>
             </div>
-
-            <div className="book-details-comments-container">
-                <p className='comment'>Ivan Ivanov: Chudesna kniga</p>
-                <p className='comment'>Ivan Ivanov: Chudesna kniga</p>
-                <p className='comment'>Ivan Ivanov: Chudesna kniga</p>
-            </div>
-
+      
             {user._id != book._ownerId
                 ? <div className="book-details-buttons" style={user == '' ? { display: 'none' } : { display: 'flex' }}>
                     <button onClick={onLike} className={isLiked && 'disabled'}>Like</button>
-                    <button>Add Comment</button>
+                    {/* <button>Add Comment</button> */}
                 </div>
                 : <div className="book-details-buttons" style={user == '' ? { display: 'none' } : { display: 'flex' }} >
                     <Link to={`/edit/${bookId}`}>
@@ -81,7 +76,7 @@ const BookDetails = () => {
                 </div>
             }
 
-           
+           <AddComment book={book}/>
         </div >
     );
 }
