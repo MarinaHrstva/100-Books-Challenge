@@ -55,6 +55,14 @@
     padding: 0.5rem;
 }
 
+#category{
+    display: block;
+padding-inline: 0.5rem;
+    border-radius: 5px;
+    width: 350px;
+    height: 40px;
+}
+
 #summary {
     height: 80px;
 }

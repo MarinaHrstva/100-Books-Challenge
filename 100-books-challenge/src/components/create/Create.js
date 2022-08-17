@@ -13,8 +13,7 @@ export const Create = () => {
         category: '',
         year: '',
         imageUrl: '',
-        wordsCount: '',
-        summary:'',
+        summary: '',
 
     })
 
@@ -50,16 +49,23 @@ export const Create = () => {
                         <input type="text" name="author" placeholder="Book author" id='author' value={book.author} onChange={onChange} />
                     </label>
                     <label htmlFor="category">Category:
-                        <input type="text" name="category" placeholder="Fantasy" value={book.category} onChange={onChange} />
+                        <select name="category" id="category" onChange={onChange}>
+                            <option value="Classics">Classics</option>
+                            <option value="Fantasy">Fantasy</option>
+                            <option value="Horror">Horror</option>
+                            <option value="Romance">Romance</option>
+                            <option value="Sci-Fi">Sci-Fi</option>
+                            <option value="Thrillers">Thrillers</option>
+                            <option value="Biographies">Biographies</option>
+                            <option value="History">History</option>
+                            <option value="Poetry">Poetry</option>
+                        </select>
                     </label>
                     <label htmlFor="year"> Year:
                         <input type="text" name="year" placeholder="1994" id='year' value={book.year} onChange={onChange} />
                     </label>
                     <label htmlFor="imageUrl"> Image URL:
                         <input type="text" name="imageUrl" placeholder="imageUrl" id='imageUrl' value={book.imageUrl} onChange={onChange} />
-                    </label>
-                    <label htmlFor="wordsCount"> Words Count:
-                        <input type="text" name="wordsCount" placeholder="10000" id='wordsCount' value={book.wordsCount} onChange={onChange} />
                     </label>
                     <label htmlFor="summary"> Summary:
                         <input type="textarea" name="summary" placeholder="Book summary..." id='summary' value={book.summary} onChange={onChange} />

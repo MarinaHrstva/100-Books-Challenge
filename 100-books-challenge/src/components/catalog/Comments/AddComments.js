@@ -29,6 +29,9 @@ const AddComment = ({
         await addComment(comment);
         e.target.reset();
 
+        getAllComments(book._id)
+        .then(res => setComments(res))
+
     }
 
     return (
