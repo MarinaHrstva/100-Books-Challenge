@@ -15,7 +15,13 @@
 
 }
 
-.add-comment-container form button{
+.add-comment-container form button {
     padding-block: 1rem;
     margin-top: 1rem;
+}
+
+.book-details-comments-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
 }

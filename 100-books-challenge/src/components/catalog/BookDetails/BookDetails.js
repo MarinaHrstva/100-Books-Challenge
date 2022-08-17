@@ -12,7 +12,9 @@ import './BookDetails.css'
 const BookDetails = () => {
     const { user } = useContext(UserContext);
     const { bookId } = useParams();
+
     const navigate = useNavigate();
+
     const [book, setBook] = useState({});
     const [likes, setLikes] = useState('');
     const [isLiked, setIsLiked] = useState(false)
@@ -62,11 +64,10 @@ const BookDetails = () => {
                 <p>Words: {book.wordsCount}</p>
                 <p>Likes: {likes}</p>
             </div>
-      
-            {user._id != book._ownerId
-                ? <div className="book-details-buttons" style={user == '' ? { display: 'none' } : { display: 'flex' }}>
-                    <button onClick={onLike} className={isLiked && 'disabled'}>Like</button>
-                    {/* <button>Add Comment</button> */}
+
+            {user._id != book._ownerId 
+                ? <div className="book-details-buttons" style={user.email ? { display: 'flex' } : { display: 'none' }}>
+                    <button onClick={onLike} className={isLiked ? 'disabled' : ''}>Like</button>
                 </div>
                 : <div className="book-details-buttons" style={user == '' ? { display: 'none' } : { display: 'flex' }} >
                     <Link to={`/edit/${bookId}`}>
@@ -76,7 +77,7 @@ const BookDetails = () => {
                 </div>
             }
 
-           <AddComment book={book}/>
+            <AddComment book={book} />
         </div >
     );
 }

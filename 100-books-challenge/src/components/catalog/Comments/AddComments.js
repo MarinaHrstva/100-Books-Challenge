@@ -12,7 +12,11 @@ const AddComment = ({
     const { user } = useContext(UserContext);
     const [comments, setComments] = useState([]);
 
- 
+    useEffect(() => {
+        getAllComments(book._id)
+            .then(res => setComments(res))
+    }, [book])
+
     async function addCommentHandler(e) {
         e.preventDefault();
         const formData = new FormData(e.target);
@@ -30,16 +34,17 @@ const AddComment = ({
     return (
         <>
             <div className="book-details-comments-container">
-                <p className='comment'>Ivan Ivanov: Chudesna kniga</p>
-                <p className='comment'>Ivan Ivanov: Chudesna kniga</p>
-                <p className='comment'>Ivan Ivanov: Chudesna kniga</p>
+                {comments.length == 0
+                    ? <p>No comments yet!</p>
+                    : comments.map(c => <p className='comment' key={c.length + book._id}>{c.userEmail}: {c.comment}</p>)}
             </div>
-            <div className='add-comment-container'>
+            {user.email && <div className='add-comment-container'>
                 <form onSubmit={addCommentHandler}>
                     <input type="textarea" placeholder='Add comment...' name='comment' id='comment' />
                     <button >Add Comment</button>
                 </form>
-            </div>
+            </div>}
+            
         </>
     );
 }
