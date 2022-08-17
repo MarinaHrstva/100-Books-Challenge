@@ -31,5 +31,5 @@ export async function register(email, password) {
 
 export function logout() {
     get('/users/logout');
-    clearUserData()
+    clearUserData();
 }

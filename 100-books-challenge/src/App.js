@@ -5,6 +5,7 @@ import { Routes, Route } from 'react-router-dom';
 import { UserContext } from './contexts/UserContext';
 import { BooksContext } from './contexts/BooksContext';
 
+import { getAllBooks } from './api/books';
 
 import { Header } from './components/header/Header';
 import { HeroSection } from './components/hero-section/HeroSection';
@@ -13,11 +14,11 @@ import { Login } from './components/login/Login';
 import { Register } from './components/register/Register';
 import { Footer } from './components/footer/Footer';
 import { Create } from './components/create/Create';
-import BookDetails from './components/catalog/BookDetails/BookDetails';
 import { Edit } from './components/edit/Edit';
+import BookDetails from './components/catalog/BookDetails/BookDetails';
+import Profile from './components/profile/Profile';
 
 import './App.css';
-import { getAllBooks } from './api/books';
 
 function App() {
 	const [user, setUser] = useState({});
@@ -52,6 +53,8 @@ function App() {
 						<Route path='/create' element={<Create />} />
 						<Route path='/books/:bookId' element={<BookDetails />} />
 						<Route path='/edit/:bookId' element={<Edit />} />
+						<Route path='/profile' element={<Profile />} />
+
 
 					</Routes>
 

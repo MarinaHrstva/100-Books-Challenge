@@ -3,6 +3,7 @@ import { useEffect } from 'react';
 import { useState } from 'react';
 import { useNavigate, useParams, Link } from 'react-router-dom';
 import { deleteBook, getBookById } from '../../../api/books';
+import { getAllLikes, getLikesByUserId, likeBook } from '../../../api/likes';
 import { UserContext } from '../../../contexts/UserContext';
 import './BookDetails.css'
 
@@ -10,16 +11,42 @@ const BookDetails = () => {
     const { user } = useContext(UserContext);
     const { bookId } = useParams();
     const navigate = useNavigate();
-    const [book, setBook] = useState({})
+    const [book, setBook] = useState({});
+    const [likes, setLikes] = useState('');
+    const [isLiked, setIsLiked] = useState(false)
 
     useEffect(() => {
         getBookById(bookId)
-            .then(result => setBook(result))
-    }, [bookId])
+            .then(result => setBook(result));
+
+        getAllLikes(bookId)
+            .then(res => setLikes(res));
+
+        getLikesByUserId(bookId, user._id)
+            .then(res => {
+                if (res > 0) {
+                    setIsLiked(true)
+                }
+            })
+    }, [user, bookId])
 
     async function onDelete() {
         deleteBook(bookId);
         navigate('/books')
+    }
+
+    async function onLike() {
+
+
+        if (!isLiked) {
+            await likeBook(bookId);
+            setIsLiked(true)
+
+            getAllLikes(bookId)
+                .then(res => setLikes(res));
+        }
+
+        navigate(`/books/${bookId}`)
     }
 
     return (
@@ -32,7 +59,7 @@ const BookDetails = () => {
                 <p>{book.author}</p>
                 <p>Year: {book.year}</p>
                 <p>Words: {book.wordsCount}</p>
-                {/* <p>Likes:1000</p> */}
+                <p>Likes: {likes}</p>
             </div>
 
             <div className="book-details-comments-container">
@@ -43,7 +70,7 @@ const BookDetails = () => {
 
             {user._id != book._ownerId
                 ? <div className="book-details-buttons" style={user == '' ? { display: 'none' } : { display: 'flex' }}>
-                    <button>Like</button>
+                    <button onClick={onLike} className={isLiked && 'disabled'}>Like</button>
                     <button>Add Comment</button>
                 </div>
                 : <div className="book-details-buttons" style={user == '' ? { display: 'none' } : { display: 'flex' }} >
@@ -54,6 +81,7 @@ const BookDetails = () => {
                 </div>
             }
 
+           
         </div >
     );
 }

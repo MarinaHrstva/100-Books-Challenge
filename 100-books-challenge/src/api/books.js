@@ -24,9 +24,7 @@ export async function deleteBook(id) {
     return del(`/data/books/` + id);
 }
 
-export async function likeBook(bookId) {
-    return post('/data/likes', { bookId });
-}
+
 
 
 

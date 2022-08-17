@@ -55,3 +55,23 @@
     gap: 1rem;
     justify-content: space-between;
 }
+
+.book-details-buttons button {
+    margin-left: 1rem;
+}
+
+.disabled {
+    cursor: auto;
+    color: darkgray;
+    background-color: gray;
+}
+
+.disabled:hover {
+    cursor: auto;
+    color: darkgray;
+    background-color: gray;
+  
+    font-weight: lighter;
+    font-size: 18px;
+ 
+}

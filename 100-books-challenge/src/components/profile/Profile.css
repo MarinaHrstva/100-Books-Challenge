@@ -1,0 +1,27 @@
+.profile-wrapper {
+    min-height: 90vh;
+}
+
+
+.info-container {
+    margin-top: 2rem;
+    margin-inline: auto;
+    width: 50%;
+    height: 150px;
+    color: #fef857;
+    background-color: #4A2c2c;
+    border-radius: 8px;
+    text-align: center;
+    padding: 2rem;
+}
+
+.info-container p{
+    margin: 1rem;
+}
+
+
+
+.books-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
