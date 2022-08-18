@@ -39,13 +39,11 @@
     margin-top: 1rem;
     margin-left: 70%;
     transition: all 0.7s ease-in-out;
-
+padding: 1rem;
 }
 
 .button-primary:hover {
     font-weight: bold;
-    padding: 0.5rem;
-
 }
 
 .hero-section p {
