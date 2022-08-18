@@ -33,7 +33,7 @@ export const Create = () => {
         }
 
         const res = await createBook(book);
-        navigate('/')
+        navigate('/books')
 
     }
 
@@ -62,7 +62,7 @@ export const Create = () => {
                         </select>
                     </label>
                     <label htmlFor="year"> Year:
-                        <input type="text" name="year" placeholder="1994" id='year' value={book.year} onChange={onChange} />
+                        <input type="number" name="year" placeholder="1994" id='year' value={book.year} onChange={onChange} />
                     </label>
                     <label htmlFor="imageUrl"> Image URL:
                         <input type="text" name="imageUrl" placeholder="imageUrl" id='imageUrl' value={book.imageUrl} onChange={onChange} />

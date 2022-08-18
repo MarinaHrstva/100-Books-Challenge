@@ -1,4 +1,4 @@
-import { useContext, } from 'react';
+import { useContext, useState, } from 'react';
 import { useNavigate } from 'react-router-dom';
 
 import { login } from '../../api/users';
@@ -8,6 +8,9 @@ import './Login.css'
 
 export const Login = () => {
     const { userLogin } = useContext(UserContext);
+    const [isEmailCorrect, setIsEmailCorrect] = useState(true);
+    const [isPasswordCorrect, setIsPasswordCorrect] = useState(true);
+
 
     const navigate = useNavigate();
     async function onSubmit(e) {
@@ -22,7 +25,7 @@ export const Login = () => {
             return alert('All fields are required!')
         }
 
-        
+
         const userData = await login(email, password);
         userLogin(userData);
         navigate('/')
@@ -30,7 +33,26 @@ export const Login = () => {
     }
 
 
+    function onBlur(e) {
+        if (e.target.name == 'email') {
+            const email = e.target.value;
+            if (email.includes('@')) {
+                setIsEmailCorrect(true);
+            } else {
+                setIsEmailCorrect(false);
+            };
+        }
 
+        if (e.target.name == 'password') {
+            const password = e.target.value;
+            if (password.length < 6) {
+                setIsPasswordCorrect(false);
+            } else {
+                setIsPasswordCorrect(true);
+            }
+        }
+
+    }
 
 
     return (
@@ -39,12 +61,12 @@ export const Login = () => {
             <div>
                 <form onSubmit={onSubmit}>
                     <label htmlFor="email">Email:
-                        <input type="text" name="email" placeholder="example@mail.com" />
-                        <p className='error-text'>Email is not valid!</p>
+                        <input type="text" name="email" placeholder="example@mail.com" onBlur={onBlur} />
+                        {isEmailCorrect || <p className='error-text'>Email is not valid!</p>}
                     </label>
                     <label htmlFor="password">Password:
-                        <input type="password" name="password" placeholder="*********" />
-                        <p className='error-text'> Password should be at least 6 characters long!</p>
+                        <input type="password" name="password" placeholder="*********" onBlur={onBlur} />
+                        {isPasswordCorrect || <p className='error-text'> Password should be at least 6 characters long!</p>}
                     </label>
                     <button className="login-button">Login</button>
                 </form>
