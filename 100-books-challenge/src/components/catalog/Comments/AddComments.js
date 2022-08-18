@@ -22,7 +22,7 @@ const AddComment = ({
         const formData = new FormData(e.target);
         const comment = {
             bookId: book._id,
-            userEmail: user.email,
+            username: user.username,
             comment: formData.get('comment')
         };
 
@@ -30,7 +30,7 @@ const AddComment = ({
         e.target.reset();
 
         getAllComments(book._id)
-        .then(res => setComments(res))
+            .then(res => setComments(res))
 
     }
 
@@ -39,15 +39,15 @@ const AddComment = ({
             <div className="book-details-comments-container">
                 {comments.length == 0
                     ? <p>No comments yet!</p>
-                    : comments.map(c => <p className='comment' key={c.length + book._id}>{c.userEmail}: {c.comment}</p>)}
+                    : comments.map(c => <p className='comment' key={c.length + book._id}>{c.username}: {c.comment}</p>)}
             </div>
-            {user.email && <div className='add-comment-container'>
+            {user.email && user._id != book._ownerId && <div className='add-comment-container'>
                 <form onSubmit={addCommentHandler}>
                     <input type="textarea" placeholder='Add comment...' name='comment' id='comment' />
                     <button >Add Comment</button>
                 </form>
             </div>}
-            
+
         </>
     );
 }

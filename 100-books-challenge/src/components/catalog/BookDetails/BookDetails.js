@@ -54,6 +54,7 @@ const BookDetails = () => {
 
     return (
         <div className="book-details-wrapper">
+<div className="details-container">
             <div className="book-details-img-wraprer">
                 <img src={book.imageUrl || `http://smartmobilestudio.com/wp-content/uploads/2012/06/leather-book-preview.png`} alt="Book cover" />
             </div>
@@ -64,6 +65,7 @@ const BookDetails = () => {
                 <p>Words: {book.wordsCount}</p>
                 <p>Likes: {likes}</p>
             </div>
+</div>
 
             {user._id != book._ownerId 
                 ? <div className="book-details-buttons" style={user.email ? { display: 'flex' } : { display: 'none' }}>
