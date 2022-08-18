@@ -17,8 +17,8 @@ header {
 
     display: flex;
     align-items: center;
-    gap:0.5rem;
-    
+    gap: 0.5rem;
+
 }
 
 .logo-div p {
@@ -34,6 +34,7 @@ header nav {
     list-style: none;
     justify-content: flex-end;
 }
+
 
 header a {
     text-decoration: none;
@@ -53,11 +54,11 @@ header nav .guest {
     margin-left: 1rem;
 }
 
-header nav .user{
-width: 100%;
+header nav .user {
+    width: 100%;
 }
 
-header nav .user span{
+header nav .user span {
     font-size: 18px;
 }
 
@@ -70,6 +71,6 @@ header nav .user span{
     align-items: center;
 }
 
-catalogBtn{
+#catalogBtn {
     margin-left: 1rem;
 }
