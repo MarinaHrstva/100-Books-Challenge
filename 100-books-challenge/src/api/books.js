@@ -5,7 +5,7 @@ export async function getBookById(id) {
 }
 
 export async function getAllBooks() {
-    return get('/data/books?sortBy=_createdOn%20desc');
+    return get('/data/books');
 }
 
 export async function getBooksByUser(userId) {

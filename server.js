@@ -1322,6 +1322,7 @@
         users: {
             "35c62d76-8152-4626-8712-eeb96381bea8": {
                 email: "peter@abv.bg",
+
                 hashedPassword: "83313014ed3e2391aa1332615d2f053cf5c1bfe05ca1cbcb5582443822df6eb1"
             },
             "847ec027-f659-4086-8032-5173e2f9c93a": {
@@ -1334,15 +1335,13 @@
     };
     var seedData = {
         books:
-            {
-                
-            }
+            [{ "_ownerId": "35c62d76-8152-4626-8712-eeb96381bea8", "title": "Jane Eyre", "author": "Charlotte Bronte", "category": "Classics", "year": "1847", "imageUrl": "https://cdn.penguin.co.uk/dam-assets/books/9780141040387/9780141040387-jacket-large.jpg", "summary": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo debitis libero eos quas quod illo iste a ea quam beatae.", "_createdOn": 1660842819390, "_id": "851a0f98-95fe-4d6d-90a1-ef4a37a57d26" }, { "_ownerId": "35c62d76-8152-4626-8712-eeb96381bea8", "title": "Crime and Punishment", "author": "Fyodor Dostoevsky", "category": "Classics", "year": "1866", "imageUrl": "https://cdn.penguin.co.uk/dam-assets/books/9780140449136/9780140449136-jacket-large.jpg", "summary": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo debitis libero eos quas quod illo iste a ea quam beatae.", "_createdOn": 1660842895316, "_id": "8f1054c1-c3e4-42f8-aa2a-f489659fb64b" }, { "_ownerId": "35c62d76-8152-4626-8712-eeb96381bea8", "title": "The Lion, The Witch And The Wardrobe", "author": "C.S. Lewis", "category": "Fantasy", "year": "1950", "imageUrl": "https://cdn.penguin.co.uk/dam-assets/books/9780563477389/9780563477389-jacket-large.jpg", "summary": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo debitis libero eos quas quod illo iste a ea quam beatae.", "_createdOn": 1660842967741, "_id": "747732a7-3ac1-428b-8d93-4e39f12ae743", "_updatedOn": 1660842990654 }, { "_ownerId": "847ec027-f659-4086-8032-5173e2f9c93a", "title": "The Lord of the Rings ", "author": "J. R. R. Tolkien", "category": "Fantasy", "year": "1954", "imageUrl": "https://cdn.penguin.co.uk/dam-assets/books/9780563528883/9780563528883-jacket-large.jpg", "summary": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo debitis libero eos quas quod illo iste a ea quam beatae.", "_createdOn": 1660843125128, "_id": "340f2d29-ca04-4a78-8fee-62799a69d264" }]
         ,
         likes: {
 
         },
-        comments:{
-            
+        comments: {
+
         }
     };
     var rules$1 = {

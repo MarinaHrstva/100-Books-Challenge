@@ -28,6 +28,7 @@ export const Login = () => {
 
         const userData = await login(email, password);
         userLogin(userData);
+        
         navigate('/')
 
     }

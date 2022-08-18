@@ -10,7 +10,7 @@ import './Catalog.css'
 export const Catalog = () => {
     const [books, setBooks] = useState([]);
 
-    
+    console.log(books);
 
     useEffect(() => {
         getAllBooks()
