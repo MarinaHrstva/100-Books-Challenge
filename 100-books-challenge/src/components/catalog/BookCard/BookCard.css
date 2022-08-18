@@ -27,7 +27,6 @@
 }
 
 .card-imgage-wraper {
-
     background-color: white;
     border: 1px solid white;
     width: 90%;
@@ -46,13 +45,14 @@
     padding-block: 0.5rem;
     text-align: center;
 }
+
 .card-text-wrapper p:first-of-type{
     font-size: 22px;
     font-weight: bold;
 }
 
 .card-text-wrapper p:last-of-type{
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .card-text-wrapper button {

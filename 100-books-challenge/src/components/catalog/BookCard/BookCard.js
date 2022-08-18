@@ -19,7 +19,6 @@ const BookCard = ({
                 <Link to={`/books/${book._id}`}>
                     <button>Details</button>
                 </Link>
-
             </div>
 
         </article>

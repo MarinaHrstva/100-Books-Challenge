@@ -35,7 +35,11 @@ const BookDetails = () => {
     }, [user, bookId])
 
     async function onDelete() {
-        deleteBook(bookId);
+
+        const agreement = window.confirm(`Are you sure do you want to delete ${book.title}?`)
+        if (agreement) {
+            deleteBook(bookId);
+        }
         navigate('/books')
     }
 
@@ -54,20 +58,24 @@ const BookDetails = () => {
 
     return (
         <div className="book-details-wrapper">
-<div className="details-container">
-            <div className="book-details-img-wraprer">
-                <img src={book.imageUrl || `http://smartmobilestudio.com/wp-content/uploads/2012/06/leather-book-preview.png`} alt="Book cover" />
-            </div>
-            <div className="book-details-text-container">
-                <h3>{book.title}</h3>
-                <p>{book.author}</p>
-                <p>Year: {book.year}</p>
-                <p>Words: {book.wordsCount}</p>
-                <p>Likes: {likes}</p>
-            </div>
-</div>
+            <div className="details-container">
+                <div className="book-details-img-wraprer">
 
-            {user._id != book._ownerId 
+                    <img src={book.imageUrl || `http://smartmobilestudio.com/wp-content/uploads/2012/06/leather-book-preview.png`} alt="Book cover" />
+                    <p className='likes-p'>Likes: {likes}</p>
+
+                </div>
+                <div className="book-details-text-container">
+                    <h3>{book.title}</h3>
+                    <p>{book.author}</p>
+                    <p className='category-p'>{book.category}</p>
+
+                    <p>Year: {book.year}</p>
+                    <p className='summary-p'>{book.summary}</p>
+                </div>
+            </div>
+
+            {user._id != book._ownerId
                 ? <div className="book-details-buttons" style={user.email ? { display: 'flex' } : { display: 'none' }}>
                     <button onClick={onLike} className={isLiked ? 'disabled' : ''}>Like</button>
                 </div>

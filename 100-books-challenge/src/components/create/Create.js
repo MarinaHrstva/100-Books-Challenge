@@ -29,7 +29,6 @@ export const Create = () => {
     async function onSubmit(e) {
         e.preventDefault()
         if (Object.values(book).some(x => x == '')) {
-            console.log(book);
             return alert('All fields are required!')
         }
 

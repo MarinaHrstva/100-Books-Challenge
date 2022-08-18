@@ -17,9 +17,14 @@
 
 }
 
+.details-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
 .book-details-img-wraprer {
-    width: 30%;
-    height: 50%;
+    width: 90%;
+    height: 90%;
 }
 
 .book-details-img-wraprer img {
@@ -29,9 +34,29 @@
 }
 
 .book-details-text-container {
-    line-height: 1.5;
+    line-height: 1.7;
     font-size: 20px;
     text-align: center;
+}
+
+.book-details-text-container h3{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.category-p{
+    font-size: 16px;
+}
+
+.summary-p{
+    margin-top: 2rem;
+text-align: justify;
+}
+
+.likes-p{
+    margin-top: 1rem;
+    margin-left: 1rem;
+    font-size: 16px;
 }
 
 .book-details-comments-container {
