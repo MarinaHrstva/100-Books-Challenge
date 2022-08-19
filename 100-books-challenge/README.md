@@ -30,6 +30,8 @@ When the user is not logged in the details looks like:
 
 #### Navigation
 The guest can see the links to the catalog, login and register pages.
+<br>
+
 <img src='./images/nav-guest.png'>
 <br>
 
