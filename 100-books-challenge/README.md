@@ -1,4 +1,77 @@
-# Getting Started with Create React App
+# 100 Books Challenge - React.js Project
+<br>
+
+
+## About the project
+SPA for viewing and managing books.
+___
+<br>
+
+## Public part
+
+#### Home Page
+<img src='./images/home-page.png'>
+<br>
+
+#### Catalog
+<img src='./images/catalog-page.png'>
+<br>
+
+<img src='./images/search.png'>
+<br>
+
+#### Details
+<img src='./images/details-guest.png'>
+<br>
+
+#### Navigation
+<img src='./images/nav-guest.png'>
+<br>
+
+#### Login
+<img src='./images/login.png'>
+<br>
+
+#### Register
+<img src='./images/register.png'>
+<br>
+<br>
+
+___
+
+## Private part
+
+#### My Profile
+<img src='./images/profile.png'>
+<br>
+
+#### Create
+<img src='./images/create.png'>
+<br>
+
+#### Owner Details 
+<img src='./images/details-owner.png'>
+<br>
+
+#### Non-Owner Details 
+<img src='./images/details-non-author.png'>
+<br>
+
+#### Navigation
+<img src='./images/nav-user.png'>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+<!-- # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -6,15 +79,14 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-### `npm start`
+ `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+
+ `npm test`
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
@@ -67,4 +139,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 ### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify) -->
