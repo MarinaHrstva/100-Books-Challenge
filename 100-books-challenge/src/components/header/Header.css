@@ -23,12 +23,11 @@ header {
 
 .logo-div p {
     font-family: 'Cormorant SC', serif;
-
 }
 
 
 header nav {
-    width: 500px;
+    width: 600px;
     display: flex;
     gap: 0.5rem;
     list-style: none;
