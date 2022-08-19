@@ -1,16 +1,53 @@
 .catalog {
     background-image: #4A2c2c;
-
     width: 100%;
     min-height: 90vh;
     color: #fef857;
     
 }
 
+.forms-container{
+    height: 100px;
+    padding-block: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.search-form {
+    display: flex;
+align-items: center;
+}
+
+
+.search-form input{
+    height: 40px;
+    width: 250px;
+    padding: 0.5rem;
+    margin-right: 0.5rem;
+    border-radius: 5px;
+
+}
+
+.search-form button{
+    height: 35px;
+}
+
+.filter-form{
+    width: 330px
+}
+
+.filter-form select{
+    height: 40px;
+    width: 250px;
+    margin-left: 0.5rem;
+    border-radius: 5px;
+    padding: 0.5rem;
+}
+
 .catalod-wraper {
     background-color: transparent;
     opacity: 1;
-
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     width: 100%;

@@ -27,6 +27,7 @@ export const Catalog = () => {
                     <button>Search</button>
                 </form>
                 <form className="filter-form">
+                    <label htmlFor="search-category">Category:
                     <select name="search-category" id="search-category" >
                         <option value="Classics">Classics</option>
                         <option value="Fantasy">Fantasy</option>
@@ -38,6 +39,7 @@ export const Catalog = () => {
                         <option value="History">History</option>
                         <option value="Poetry">Poetry</option>
                     </select>
+                    </label>
                 </form>
             </div>
 
