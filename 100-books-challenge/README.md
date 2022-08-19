@@ -12,27 +12,34 @@ ___
 #### Home Page
 <img src='./images/home-page.png'>
 <br>
+<br>
 
 #### Catalog
+The catalog page displays all books from all users.
 <img src='./images/catalog-page.png'>
 <br>
 
+The search function is also available to everyone
 <img src='./images/search.png'>
 <br>
 
-#### Details
+The details button takes the user to the details page.
+When the user is not logged in the details looks like:
 <img src='./images/details-guest.png'>
 <br>
 
 #### Navigation
+The guest can see the links to the catalog, login and register pages.
 <img src='./images/nav-guest.png'>
 <br>
 
 #### Login
+The users can login whit email and password.
 <img src='./images/login.png'>
 <br>
 
 #### Register
+The register format is standard with data validation applied.
 <img src='./images/register.png'>
 <br>
 <br>
