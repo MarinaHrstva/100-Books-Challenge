@@ -1,7 +1,6 @@
 
 import { useEffect } from 'react'
 import { useState } from 'react'
-import { useContext } from 'react'
 import { getAllBooks } from '../../api/books'
 
 import BookCard from './BookCard/BookCard'
@@ -9,8 +8,8 @@ import './Catalog.css'
 
 export const Catalog = () => {
     const [books, setBooks] = useState([]);
-
-    console.log(books);
+    const [filteredBooks, setFilteredBooks] = useState([]);
+    const [searchedValue, setSearchedValue] = useState('');
 
     useEffect(() => {
         getAllBooks()
@@ -19,36 +18,36 @@ export const Catalog = () => {
             })
     }, [])
 
+    function onSearchSubmitHandler(e) {
+        e.preventDefault();
+        if (searchedValue == '') {
+            setFilteredBooks([])
+        } else {
+            setFilteredBooks(books.filter(b => b.title.toLowerCase().includes(searchedValue.toLowerCase())))
+        }
+    }
+
+    const onSearchChangeHandler = (e) => {
+        setSearchedValue(e.target.value);
+    }
+
     return (
         <section className="catalog">
             <div className="forms-container">
-                <form className="search-form">
-                    <input type="text" placeholder='Search...' />
+                <form className="search-form" onSubmit={onSearchSubmitHandler}>
+                    <input type="text" placeholder='Search book...' id='search' value={searchedValue} onChange={onSearchChangeHandler} />
                     <button>Search</button>
-                </form>
-                <form className="filter-form">
-                    <label htmlFor="search-category">Category:
-                    <select name="search-category" id="search-category" >
-                        <option value="Classics">Classics</option>
-                        <option value="Fantasy">Fantasy</option>
-                        <option value="Horror">Horror</option>
-                        <option value="Romance">Romance</option>
-                        <option value="Sci-Fi">Sci-Fi</option>
-                        <option value="Thrillers">Thrillers</option>
-                        <option value="Biographies">Biographies</option>
-                        <option value="History">History</option>
-                        <option value="Poetry">Poetry</option>
-                    </select>
-                    </label>
                 </form>
             </div>
 
             <div className="catalod-wraper">
-                {books.length > 0
-                    ? books.map(b => <BookCard book={b} key={b._id} />)
-                    : <p>No books yet!</p>}
+                {filteredBooks.length > 0
+                    ? filteredBooks.map(b => <BookCard book={b} key={b._id} />)
+                    : books.map(b => <BookCard book={b} key={b._id} />)}
+                {(filteredBooks.length == 0 && books.length == 0) && <p>No books yet!</p>}
             </div>
 
         </section>
     )
+
 }
