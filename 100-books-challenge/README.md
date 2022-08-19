@@ -78,9 +78,12 @@ When the user is logged in, the navigation looks like:
 <img src='./images/nav-user.png'>
 <br>
 
+## The front-end part is built from scratch with:
+* React.js
+* HTML & CSS
 
-
-
+## For the back-end part is used:
+[SoftUni Practice Server](https://github.com/softuni-practice-server/softuni-practice-server)
 
 
 
