@@ -42,6 +42,7 @@ The users can login whit email and password.
 
 #### Register
 The register format is standard with data validation applied.
+<br>
 <img src='./images/register.png'>
 <br>
 <br>
