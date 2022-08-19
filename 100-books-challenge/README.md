@@ -29,14 +29,14 @@ When the user is not logged in the details looks like:
 <br>
 
 #### Navigation
-The guest can see the links to the catalog, login and register pages.
+The guests can see the links to the catalog, login and register pages.
 <br>
 
 <img src='./images/nav-guest.png'>
 <br>
 
 #### Login
-The users can login whit email and password.
+The users can login with email and password.
 <img src='./images/login.png'>
 <br>
 
@@ -54,7 +54,7 @@ ___
 #### My Profile
 The profile page shows all the books of logged in user.
 It also displays information about the user's details and the number of books the current user has published.
-User avatar changes depending on gender.
+The user's avatar changes according to the gender.
 <img src='./images/profile.png'>
 <br>
 
