@@ -19,7 +19,7 @@ The catalog page displays all books from all users.
 <img src='./images/catalog-page.png'>
 <br>
 
-The search function is also available to everyone
+The search functionality is also available to everyone.
 <img src='./images/search.png'>
 <br>
 
@@ -49,22 +49,29 @@ ___
 ## Private part
 
 #### My Profile
+The profile page shows all the books of logged in user.
+It also displays information about the user's details and the number of books the current user has published.
+User avatar changes depending on gender.
 <img src='./images/profile.png'>
 <br>
 
 #### Create
+Every logged-in user can publish books by filling in the creation form.
 <img src='./images/create.png'>
 <br>
 
 #### Owner Details 
+When the user owns the book, they have access to the edit and delete buttons.
 <img src='./images/details-owner.png'>
 <br>
 
 #### Non-Owner Details 
+Non-Owners are able to like and comment on other books.
 <img src='./images/details-non-author.png'>
 <br>
 
 #### Navigation
+When the user is logged in, the navigation looks like:
 <img src='./images/nav-user.png'>
 <br>
 
