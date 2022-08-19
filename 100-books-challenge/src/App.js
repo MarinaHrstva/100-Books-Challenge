@@ -18,6 +18,7 @@ import BookDetails from './components/catalog/BookDetails/BookDetails';
 import Profile from './components/profile/Profile';
 
 import './App.css';
+import PrivateRoute from './components/PrivateRoute/PrivateRoute';
 
 function App() {
 	const [user, setUser] = useState({});
@@ -39,10 +40,12 @@ function App() {
 					<Route path='/books' element={<Catalog />} />
 					<Route path='/login' element={<Login />} />
 					<Route path='/register' element={<Register />} />
-					<Route path='/create' element={<Create />} />
+					{/* <Route element={<PrivateRoute />}> */}
+						<Route path='/create' element={<Create />} />
+						<Route path='/edit/:bookId' element={<Edit />} />
+						<Route path='/profile' element={<Profile />} />
+					{/* </Route> */}
 					<Route path='/books/:bookId' element={<BookDetails />} />
-					<Route path='/edit/:bookId' element={<Edit />} />
-					<Route path='/profile' element={<Profile />} />
 				</Routes>
 				<Footer />
 			</div>
