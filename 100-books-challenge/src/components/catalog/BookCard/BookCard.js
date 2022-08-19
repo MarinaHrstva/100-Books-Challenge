@@ -10,7 +10,6 @@ const BookCard = ({
         <article className="book-card">
             <div className="card-imgage-wraper">
                 <img src={book.imageUrl || `http://smartmobilestudio.com/wp-content/uploads/2012/06/leather-book-preview.png`} alt="Book cover" />
-
             </div>
             <div className='card-text-wrapper'>
                 <p>{book.title}</p>
