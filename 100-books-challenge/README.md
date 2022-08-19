@@ -82,7 +82,7 @@ When the user is logged in, the navigation looks like:
 * React.js
 * HTML & CSS
 
-## For the back-end part is used:
+## For the back-end is used:
 [SoftUni Practice Server](https://github.com/softuni-practice-server/softuni-practice-server)
 
 
