@@ -21,7 +21,6 @@ const Profile = () => {
 
     return (
         <div className="profile-wrapper">
-
             <div className="info-container">
                 <div className="avatar-wrapper">
                     <img src={user.gender == 'female' ? 'https://www.svgrepo.com/show/382110/female-avatar-girl-face-woman-user-3.svg' : 'http://www.caiml.co.uk/wp-content/uploads/2016/03/270x270-male-avatar.png'} alt="" />

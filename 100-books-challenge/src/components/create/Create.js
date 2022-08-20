@@ -33,7 +33,7 @@ export const Create = () => {
         }
 
         const res = await createBook(book);
-        navigate('/books')
+        navigate('/profile')
 
     }
 
