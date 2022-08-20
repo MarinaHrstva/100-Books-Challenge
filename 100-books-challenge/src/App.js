@@ -38,11 +38,9 @@ function App() {
 					<Route path='/books' element={<Catalog />} />
 					<Route path='/login' element={<Login />} />
 					<Route path='/register' element={<Register />} />
-			
-						<Route path='/create' element={<Create />} />
-						<Route path='/edit/:bookId' element={<Edit />} />
-						<Route path='/profile' element={<Profile />} />
-				
+					<Route path='/create' element={<Create />} />
+					<Route path='/edit/:bookId' element={<Edit />} />
+					<Route path='/profile' element={<Profile />} />
 					<Route path='/books/:bookId' element={<BookDetails />} />
 				</Routes>
 				<Footer />
